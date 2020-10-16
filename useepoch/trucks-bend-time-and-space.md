@@ -13,9 +13,9 @@
 
 **UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and convert it to Wall-Clock time for people in that Time Zone to read.  It is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Wall-Clock time.
 
-**UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time , the offset in India displays as India Standard Time (IST) while in San Francisco it displays as Pacific Daylight Time (PDT).
+**UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time above, Friday October 16 6:00 AM GMT, the offset in India is +05:30 and displays as India Standard Time (IST) while in San Francisco the offset is -07:00, and displays as Pacific Daylight Time (PDT).
 
-Since these offset names are also called "Time Zones" it can create confusion. Don't be fooled! [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
+Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
 
 ## Putting it together
@@ -51,5 +51,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTY1MjIzOCwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbLTE4ODQxNTQ5MjksLTE5ODczMzAyMThdfQ
+==
 -->
