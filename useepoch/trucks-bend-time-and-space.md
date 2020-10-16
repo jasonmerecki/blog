@@ -13,6 +13,13 @@
 
 **UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and convert it to Wall-Clock time for people in that Time Zone to read.  It is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Wall-Clock time.
 
+**UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. In the above examples, the offset in India displays as India Standard Time (IST) while in San Francisco it displays as Pacific Daylight Time (PDT).
+
+Since these offset names are also called "Time Zones" it can create confusion. Don't be fooled! [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
+
+
+## Putting it together
+
 I purposely described this as a conversion. It is the same as a computer storing a one byte binary value as 00000110 and converting it to 6 for people to read.
 
 By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e. Asia/Kolkata) goes through these steps:
@@ -24,11 +31,6 @@ By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e
 The same UTC time converted with US-Pacific (America/Los_Angeles) will lookup an offset of -07:00 due to daylight savings time, and convert to "Thursday October 15, 11:00 PM". 
 
 The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, at UTC time 1602828000000.
-
-**UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. In the above examples, the offset in India displays as India Standard Time (IST) while in San Francisco it displays as Pacific Daylight Time (PDT).
-
-Since these offset names are also called "Time Zones" it can create confusion. Don't be fooled! [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
-
 
 
 # Gort goes to work
@@ -49,6 +51,5 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUzMjg1NDUsLTE5ODczMzAyMThdfQ
-==
+eyJoaXN0b3J5IjpbMTE2NTI5ODAwNywtMTk4NzMzMDIxOF19
 -->
