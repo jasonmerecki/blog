@@ -43,7 +43,9 @@ The package delivery company will have pickup and dropoff times around North Ame
 
 | Pickup time |  |
 |--|--|
-| October 31, 08:00 |  |
+| October 31, 8:00 AM|  |
+| October 31, 8:30 AM|  |
+| October 31, 9:00 AM|  |
 
 
 
@@ -58,5 +60,5 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODc5NjQ4LC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
