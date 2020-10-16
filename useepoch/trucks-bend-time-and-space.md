@@ -11,7 +11,7 @@
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting on a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:30 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). On Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
-**UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and display it as to Wall-Clock time for people in that Time Zone to read.  It is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Wall-Clock time.
+**UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and convert it to a Wall-Clock display time for people in that Time Zone to read.  It is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Wall-Clock time.
 
 **UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time above, Friday October 16 6:00 AM GMT, the offset in India is +05:30 and displays as India Standard Time (IST) while in San Francisco the offset is -07:00, and displays as Pacific Daylight Time (PDT).
 
@@ -19,8 +19,6 @@ Since these offset names are also called "Time Zones" in conversation, it can cr
 
 
 ## Putting it together
-
-
 
 By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e. Asia/Kolkata) goes through these steps:
 
@@ -30,7 +28,7 @@ By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e
 
 The same UTC time converted with US-Pacific (America/Los_Angeles) will lookup an offset of -07:00 due to daylight savings time, and convert to "Thursday October 15, 11:00 PM". 
 
-I purposely described this as a conversion. It is the same as a computer storing a one byte binary value as 00000110 and converting it to 6 for people to read.
+I purposely described this as an display conversion. It is the same as a computer storing a one byte binary value as 00000110 and converting it to display as the number 6 for people to read. The underlying value did not convert, only the display. 
 
 The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, at UTC time 1602828000000.
 
@@ -55,5 +53,5 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTU0NjMzMCwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbNjYxNzM1MTI5LC0xOTg3MzMwMjE4XX0=
 -->
