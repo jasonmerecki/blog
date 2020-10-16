@@ -27,7 +27,7 @@ The key point to UTC time is that it is the *same time value no matter the Wall-
 
 **UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. In the above examples, the offset in India displays as India Standard Time (IST) while in San Francisco it displays as Pacific Daylight Time (PDT).
 
-Since these offset names are also called "Time Zones" it can create confusion. Don't be fooled! Read this blog which describes the difference well. 
+Since these offset names are also called "Time Zones" it can create confusion. Don't be fooled! [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
 
 
@@ -49,5 +49,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NDcxNTY1LC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbLTEwNjUzMjg1NDUsLTE5ODczMzAyMThdfQ
+==
 -->
