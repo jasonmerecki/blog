@@ -35,11 +35,9 @@ I purposely described this as an display conversion. It is the same as a compute
 The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, at UTC time 1602828000000.
 
 
-
-
 # Gort goes to work
 
-Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time.
+Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time way.  This may include a Datetime format in SQL server or a java.util.Date with 
 
 
 
@@ -55,5 +53,5 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTA0NDA3NywtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbLTU4ODA5NzU2NiwtMTk4NzMzMDIxOF19
 -->
