@@ -65,6 +65,8 @@ Gort has a solution, allow the server to convert the location time to a local se
 | October 31, 9:00 AM| Dallas, TX | October 31, 10:00 AM|
 | October 31, 8:30 AM| San Francisco, CA | October 31, 11:30 AM|
 
+This seems to work... at first.
+
 
 
 
@@ -78,6 +80,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1ODYxMzc2LDgxMjgwODE0MiwtMTk4Nz
-MzMDIxOF19
+eyJoaXN0b3J5IjpbLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOT
+g3MzMwMjE4XX0=
 -->
