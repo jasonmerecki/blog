@@ -39,7 +39,7 @@ The key point to UTC time is that it is the *same time value no matter the Wall-
 
 Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time manner.
 
-The package delivery company will have pickup and dropoff times around North America. The incoming data Gort receives looks like this:
+The client will have package pickup and dropoff times around North America. The incoming data Gort receives looks like this:
 
 | Pickup time |  |
 |--|--|
@@ -56,7 +56,7 @@ The client wants Gort to display the pickup times sorted from earliest to latest
 | October 31, 8:30 AM| San Francisco, CA |
 | October 31, 9:00 AM| Dallas, TX |
 
-The company is upset.
+The client is upset. The pickup in San Francisco is in Pacific time 
 
 
 ## Helpful sites
@@ -69,6 +69,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2Njc5OTM4LDgxMjgwODE0MiwtMTk4Nz
+eyJoaXN0b3J5IjpbMjI0NzI5OTc5LDgxMjgwODE0MiwtMTk4Nz
 MzMDIxOF19
 -->
