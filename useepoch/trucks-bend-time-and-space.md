@@ -47,7 +47,7 @@ The package delivery company will have pickup and dropoff times around North Ame
 | October 31, 8:30 AM|  |
 | October 31, 9:00 AM|  |
 
-
+The company wants Gort to display the pickup times sorted from earliest to latest, so they know when to 
 
 
 ## Helpful sites
@@ -60,5 +60,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbMTE2OTY0MjE5Nyw4MTI4MDgxNDIsLTE5OD
+czMzAyMThdfQ==
 -->
