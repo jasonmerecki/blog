@@ -28,11 +28,9 @@ By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e
 
 The same display time steps for San Francisco 
 
-converted with US-Pacific (America/Los_Angeles) will lookup an offset of -07:00 due to daylight savings time, and convert to "Thursday October 15, 11:00 PM". 
-
  - Convert UTC Time 1602828000000 to GMT Wall-Clock time "Friday October 16 6:00 AM" 
  - Lookup the offset for America/Los_Angeles for that time of year, which is when the Time Zone observes daylight savings time, resulting in -07:00
- - Add the offset and display the result "October 16, 2020 11:30 AM"
+ - Add the offset and display the result "October 15, 2020 11:00 PM"
 
 I purposely described this as an display conversion. It is the same as a computer storing a one byte binary value as 00000110 and converting it to display as the number 6 for people to read. The underlying value did not convert, only the display. 
 
@@ -43,7 +41,7 @@ The key point to UTC time is that it is the *same time value no matter the Wall-
 
 # Gort goes to work
 
-Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time and tends to 
+Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time.
 
 
 
@@ -59,5 +57,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzQ3NTIzMSwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbLTExMDI4MzYxNDgsLTE5ODczMzAyMThdfQ
+==
 -->
