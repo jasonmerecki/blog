@@ -47,7 +47,16 @@ The package delivery company will have pickup and dropoff times around North Ame
 | October 31, 8:30 AM|  |
 | October 31, 9:00 AM|  |
 
-The company wants Gort to display the pickup times sorted from earliest to latest, so they know when to 
+The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort adds the location the output and gets this result:
+
+
+| Pickup time | Location |
+|--|--|
+| October 31, 8:00 AM| Chicago, IL |
+| October 31, 8:30 AM| San Francisco, CA |
+| October 31, 9:00 AM| Dallas, TX |
+
+The company is upset.
 
 
 ## Helpful sites
@@ -60,6 +69,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTY0MjE5Nyw4MTI4MDgxNDIsLTE5OD
-czMzAyMThdfQ==
+eyJoaXN0b3J5IjpbMjI2Njc5OTM4LDgxMjgwODE0MiwtMTk4Nz
+MzMDIxOF19
 -->
