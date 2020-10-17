@@ -61,13 +61,15 @@ The client wants Gort to display the pickup times sorted from earliest to latest
 
 The client is upset. The pickup in San Francisco is in Pacific time zone, and 8:30 AM is after the 9:00 AM pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison. 
 
-Gort has a solution, allow the server to convert the location time to a local server time.  If all times are expressed as a local server time, then the comparison works.
+Gort has a solution, allow the server to convert the location time to a local server time.   If all times are expressed as a local server time, then the comparison works.
 
 | Pickup time | Location | Server Time|
 |--|--|--|
 | October 31, 8:00 AM| Chicago, IL | October 31, 9:00 AM|
 | October 31, 9:00 AM| Dallas, TX | October 31, 10:00 AM|
 | October 31, 8:30 AM| San Francisco, CA | October 31, 11:30 AM|
+
+Don't forget, the Server Time is also a Wall-Clock Time and thus not really a UTC Time value, i.e. a milliseconds after the epoch.
 
 This seems to work... at first.
 
@@ -84,7 +86,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5MDAzNTEwLDMyNTg3MDc1MSwxNDM4Mj
-A1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIx
-OF19
+eyJoaXN0b3J5IjpbLTEyMzk5NDYwOTksMzI1ODcwNzUxLDE0Mz
+gyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMw
+MjE4XX0=
 -->
