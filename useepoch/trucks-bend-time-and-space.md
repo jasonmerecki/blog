@@ -5,11 +5,11 @@
 
 **Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
 
-**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow daylight savings time (or British Summer Time if you prefer). 
+**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow Daylight Savings Time (or British Summer Time if you prefer). 
 
-**UTC Time:** Computers measure time by the elapsed milliseconds starting on a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:30 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). On Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
+**UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
-**UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and format it to a Wall-Clock display time for people in that Time Zone to read.  It is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Wall-Clock time.
+**UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and format it to a Wall-Clock display time for people in a specific Time Zone to read.  The offset is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC  Wall-Clock time.
 
 **UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time above, Friday October 16 6:00 AM GMT, the offset in India is +05:30 and displays as India Standard Time (IST) while in San Francisco the offset is -07:00, and displays as Pacific Daylight Time (PDT).
 
@@ -87,7 +87,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3NiwzMj
-U4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MDgx
-NDIsLTE5ODczMzAyMThdfQ==
+eyJoaXN0b3J5IjpbLTE5NTY3OTExMjYsLTcwMTQ5NTkxMiwtMT
+IyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUz
+MjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
