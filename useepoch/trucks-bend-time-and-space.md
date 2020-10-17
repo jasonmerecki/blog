@@ -50,23 +50,23 @@ The client will have package pickup and dropoff times around North America. The 
 |--|--|
 | 2020-10-31 08:00|  |
 | 2020-10-31 08:30|  |
-| October 31, 9:00 AM|  |
+| 2020-10-31 09:00|  |
 
 The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort adds the location the output and gets this result:
 
 | Pickup time | Location |
 |--|--|
-| October 31, 8:00 AM| Chicago, IL |
-| October 31, 8:30 AM| San Francisco, CA |
-| October 31, 9:00 AM| Dallas, TX |
+| 2020-10-31 08:00| Chicago, IL |
+| 2020-10-31 08:30| San Francisco, CA |
+| 2020-10-31 09:00| Dallas, TX |
 
-The client is upset. The pickup in San Francisco is in Pacific time zone, and 8:30 AM is after the 9:00 AM pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison. 
+The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison. 
 
 Gort has a solution, allow the server to convert the location time to a local server time.   If all times are expressed as a local server time, then the comparison works.
 
 | Pickup time | Location | Server Time|
 |--|--|--|
-| October 31, 8:00 AM| Chicago, IL | October 31, 9:00 AM|
+| 2020-10-31 08:00| Chicago, IL | October 31, 9:00 AM|
 | October 31, 9:00 AM| Dallas, TX | October 31, 10:00 AM|
 | October 31, 8:30 AM| San Francisco, CA | October 31, 11:30 AM|
 
@@ -87,7 +87,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTIwMzI0NSwtMTIyNzI0ODQ3NiwzMj
+eyJoaXN0b3J5IjpbMTYxMDc0MTM2MSwtMTIyNzI0ODQ3NiwzMj
 U4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MDgx
 NDIsLTE5ODczMzAyMThdfQ==
 -->
