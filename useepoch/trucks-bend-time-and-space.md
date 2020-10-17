@@ -34,7 +34,7 @@ The same display time steps for San Francisco
 
 I purposely described this as a display formatting concern. I view this the same way as a computer storing a one byte binary value as 00000110 and formatting it to display as the number 6 for people to read. The underlying value did not change, only the display. 
 
-The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, both at exactat UTC time 1602828000000.
+The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, both at exactly UTC time 1602828000000.
 
 
 # Gort goes to work
@@ -52,7 +52,7 @@ The client will have package pickup and dropoff times around North America. The 
 | 2020-10-31 08:30|  |
 | 2020-10-31 09:00|  |
 
-The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort adds the location the output and gets this result:
+The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort sorts, adds the location to the output and gets this result:
 
 | Pickup time | Location |
 |--|--|
@@ -87,7 +87,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMzE1MTA1LC03MDE0OTU5MTIsLTEyMj
+eyJoaXN0b3J5IjpbLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEyMj
 cyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1MzIw
 NjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
