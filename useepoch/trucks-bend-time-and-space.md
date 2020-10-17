@@ -41,7 +41,7 @@ The key point to UTC time is that it is the *same time value no matter the Wall-
 
 Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time manner.
 
-## Gort goes to work
+## Scheduled pickup time
 
 The client will have package pickup and dropoff times around North America. The incoming schedule data Gort receives looks like this:
 
@@ -69,11 +69,11 @@ Gort has a solution, allow the server to convert the location time to a local se
 | October 31, 9:00 AM| Dallas, TX | October 31, 10:00 AM|
 | October 31, 8:30 AM| San Francisco, CA | October 31, 11:30 AM|
 
-Don't forget, the Server Time is also a Wall-Clock Time and thus not really a UTC Time value, i.e. a milliseconds after the epoch.
-
 This seems to work... at first.
 
+## Location pings/updates
 
+Next, Gort must collect location updates from the drivers making the deliveries. 
 
 
 ## Helpful sites
@@ -86,7 +86,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk5NDYwOTksMzI1ODcwNzUxLDE0Mz
+eyJoaXN0b3J5IjpbLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0Mz
 gyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMw
 MjE4XX0=
 -->
