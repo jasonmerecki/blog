@@ -27,11 +27,12 @@ By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e
 
 The same display time steps for San Francisco 
 
- - Convert UTC Time 1602828000000 to GMT Wall-Clock time "Friday October 16 6:00 AM" 
- - Lookup the offset for America/Los_Angeles for that time of year, resulting in -07:00 which includes a one hour change for daylight savings time at that time of year
- - Add the offset and format the result "October 15, 2020 11:00 PM"
+ -  Start with UTC Time 1602828000000
+ - Lookup the offset for America/Los_Angeles for that time of year, which is +07:00 
+ - Applies the offset hours/minutes, resulting in a 'local' millisecond time
+ - Format the result using calendar/clock fields, resulting in "October 15, 2020 11:00 PM"
 
-I purposely described this as an display formatting. It is the same as a computer storing a one byte binary value as 00000110 and converting it to display as the number 6 for people to read. The underlying value did not convert, only the display. 
+I purposely described this as a display formatting concern. I view this the same way as a computer storing a one byte binary value as 00000110 and formatting it to display as the number 6 for people to read. The underlying value did not change, only the display. 
 
 The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, at UTC time 1602828000000.
 
@@ -83,6 +84,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNz
-E1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbNzE5MDAzNTEwLDMyNTg3MDc1MSwxNDM4Mj
+A1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIx
+OF19
 -->
