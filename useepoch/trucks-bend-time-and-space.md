@@ -22,7 +22,7 @@ By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e
 
  - Convert UTC Time 1602828000000 to GMT Wall-Clock time "Friday October 16 6:00 AM" 
  - Lookup the offset for Asia/Kolkata for that time of year, resulting in  +05:30 
- - Add the offset and display the result "October 16, 2020 11:30 AM"
+ - Add the offset and format the result "October 16, 2020 11:30 AM"
 
 The same display time steps for San Francisco 
 
@@ -82,6 +82,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDU4Mjk2MSwtMTI3MTUzMjA2NCw4MT
+eyJoaXN0b3J5IjpbMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MT
 I4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
