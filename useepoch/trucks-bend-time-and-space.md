@@ -21,7 +21,7 @@ Since these offset names are also called "Time Zones" in conversation, it can cr
 By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e. Asia/Kolkata) goes through these steps:
 
  - Start with UTC Time 1602828000000
- - Lookup the offset for Asia/Kolkata for that time of year, resulting in  +05:30 
+ - Lookup the offset for Asia/Kolkata for that time of year, which is +05:30 
  - Applies the offset hours/minutes, resulting in a 'local' millisecond time
  - Format the result using calendar/clock fields, resulting in "October 16, 2020 11:30 AM"
 
@@ -83,6 +83,6 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTc3Nzc3NiwxNDM4MjA1Mzk2LC0xMj
-cxNTMyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNz
+E1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
