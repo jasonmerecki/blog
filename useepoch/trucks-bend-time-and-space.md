@@ -74,7 +74,16 @@ This seems to work... at first.
 
 ## Location pings/updates
 
-Next, Gort must collect location updates from the drivers making the deliveries. 
+Next, Gort must collect location updates from the drivers making the deliveries.  The following GPS pings are received by Gort's application:
+
+| Pickup time | Location |
+|--|--|
+| 2020-10-31 06:17 | Chicago, IL |
+| 2020-10-31 08:30| San Francisco, CA |
+| 2020-10-31 09:00| Dallas, TX |
+
+
+ (don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information)
 
 
 ## Helpful sites
@@ -87,7 +96,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEyMj
-cyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1MzIw
-NjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbMTY0NjgzMjQ2LC04NzQyNTAxOSwtNzAxND
+k1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2
+LC0xMjcxNTMyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
 -->
