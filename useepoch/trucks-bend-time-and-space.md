@@ -84,7 +84,13 @@ Next, Gort must collect location updates from the drivers making the deliveries.
 | 2020-10-31 06:23 | 41.765610, -86.743576 |
 | 2020-10-31 06:25 | 41.601892, -87.148836 |
 
- (don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information)
+The client asks Gort to plot these on a map to show the driver's route and progress, with this result
+
+
+
+
+
+Don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information.
 
 
 ## Helpful sites
@@ -97,7 +103,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDQ1MjE2MCwtODc0MjUwMTksLTcwMT
+eyJoaXN0b3J5IjpbMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMT
 Q5NTkxMiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5
 NiwtMTI3MTUzMjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ
 ==
