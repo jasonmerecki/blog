@@ -40,6 +40,7 @@ The key point to UTC time is that it is the *same time value no matter the Wall-
 # Gort goes to work
 
 Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time manner.
+These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
 
 ## Scheduled pickup time
 
@@ -47,8 +48,8 @@ The client will have package pickup and dropoff times around North America. The 
 
 | Pickup time |  |
 |--|--|
-| October 31, 8:00 AM|  |
-| October 31, 8:30 AM|  |
+| 2020-10-31 08:00|  |
+| 2020-10-31 08:30|  |
 | October 31, 9:00 AM|  |
 
 The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort adds the location the output and gets this result:
@@ -86,7 +87,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0Mz
-gyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMw
-MjE4XX0=
+eyJoaXN0b3J5IjpbLTgxMTIwMzI0NSwtMTIyNzI0ODQ3NiwzMj
+U4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MDgx
+NDIsLTE5ODczMzAyMThdfQ==
 -->
