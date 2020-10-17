@@ -66,9 +66,9 @@ Gort has a solution, allow the server to convert the location time to a local se
 
 | Pickup time | Location | Server Time|
 |--|--|--|
-| 2020-10-31 08:00| Chicago, IL | October 31, 9:00 AM|
-| October 31, 9:00 AM| Dallas, TX | October 31, 10:00 AM|
-| October 31, 8:30 AM| San Francisco, CA | October 31, 11:30 AM|
+| 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00 AM|
+| 2020-10-31 09:00 AM| Dallas, TX | 2020-10-31 10:00 AM|
+| 2020-10-31 08:30 AM| San Francisco, CA | 2020-10-31 11:30 AM|
 
 This seems to work... at first.
 
@@ -87,7 +87,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDc0MTM2MSwtMTIyNzI0ODQ3NiwzMj
+eyJoaXN0b3J5IjpbLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3NiwzMj
 U4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MDgx
 NDIsLTE5ODczMzAyMThdfQ==
 -->
