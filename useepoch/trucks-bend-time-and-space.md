@@ -148,7 +148,7 @@ The GPS ping location updates are sent with a time offset, which all systems can
 | 1604141520000 | 2020-10-31 05:52 -05:00 | 41.676503, -86.835408 |
 | 1604143500000 | 2020-10-31 06:25 -05:00 | 41.601892, -87.148836 |
 
-For the elapsed delivery time, storing the UTC Time clearly shows the (and the
+For the elapsed delivery time, the UTC Time difference results in the proper elapsed time. And, the time format with the offset value helps the user understand why the difference is 25 hours:
 
 | Pickup time format | Pickup Location | Delivery time format | Delivery Location|
 |--|--|--|--|
@@ -188,7 +188,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTczMTIyOTksLTg1Njg2NTMwMSwtMT
+eyJoaXN0b3J5IjpbLTE1MjA0NzU2NzksLTg1Njg2NTMwMSwtMT
 U2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1
 NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMj
 Q1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYx
