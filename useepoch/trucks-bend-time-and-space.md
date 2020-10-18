@@ -116,7 +116,9 @@ These are avoidable by using UTC Time instead, and treating the display of a clo
 
 However, people think in Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00" and the computer engineer in San Francisco can read and understand the time.
 
-The challenge is that the engineer reading the data may conclude that it "looks right", or they just overlook the actual s
+The challenge is that the engineer reading the data may conclude that it "looks right", or they may overlook the UTC Time value being stored and try to work only with the clock time being displayed. 
+
+Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time 
 
 
 ## Eliminate datetime type! 
@@ -138,10 +140,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzM3NDE5NSwxMjg2OTU1MTI1LDM3ND
-U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
-NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
-c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
-MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
-MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbLTEyMjkzMzgzMDMsMTI4Njk1NTEyNSwzNz
+Q1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1
+LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5Mz
+Y3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwt
+MTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MT
+UzMjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
