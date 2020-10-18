@@ -152,7 +152,7 @@ For the elapsed delivery time, the UTC Time difference results in the proper ela
 
 | UTC Time pickup| Pickup time format | Pickup Location | UTC Time delivery | Delivery time format | Delivery Location|
 |--|--|--|--|--|--|
-| 1604149200000 | 2020-10-31 08:00 -05:00| Chicago, IL | 2020-11-01 08:00 -06:00| Houston, TX |
+| 1604149200000 | 2020-10-31 08:00 -05:00| Chicago, IL | 1604239200000 | 2020-11-01 08:00 -06:00| Houston, TX |
 
 
 
@@ -188,11 +188,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NTE2OTg4LC04NTY4NjUzMDEsLTE1Nj
-E0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUx
-MjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NT
-A0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwx
-ODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OT
-U5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTZd
-fQ==
+eyJoaXN0b3J5IjpbMTE1ODQwNTU3MywtODU2ODY1MzAxLC0xNT
+YxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1
+MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyND
+UwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEs
+MTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxND
+k1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2
+XX0=
 -->
