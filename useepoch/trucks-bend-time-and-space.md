@@ -108,7 +108,9 @@ Gort's app calculates that the trip took 24 hours. But the client is upset again
 
 Because Daylight Savings Time ended on November 1, 2020, and everyone in Central Time Zone rolled back their clocks 1 hour, adding that hour overnight.
 
-## What do ttime math challenges
+## What to do 
+
+The bottom line is that Wall Clock time creates bugs when the l
 
 
 ## Helpful sites
@@ -121,7 +123,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzgxNjgyMDgsMTI4Njk1NTEyNSwzNz
+eyJoaXN0b3J5IjpbLTEyMTY0NzAzNzMsMTI4Njk1NTEyNSwzNz
 Q1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1
 LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5Mz
 Y3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwt
