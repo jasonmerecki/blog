@@ -117,7 +117,9 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 |--|--|--|--|
 | 2020-10-31 08:00| Denver, CO | 2020-11-01 08:00| Phoenix, AZ |
 
-This driver was paid for 25 hours even though this time is only 24 hours.  Gort is simply 
+This driver was paid for 25 hours even though this time is only 24 hours.  Gort is in a frenzy.  Both Denver and Phoenix are in Mountain Time Zone, what happened?
+
+Phoenix (and most of Arizona) do not observe Daylight Savings Time and did not roll back their clocks. 
 
 
 ## Why this is hard  
@@ -152,7 +154,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDczMzU0OSwxMjg2OTU1MTI1LDM3ND
+eyJoaXN0b3J5IjpbLTMwNTYzODg2MiwxMjg2OTU1MTI1LDM3ND
 U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
 NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
 c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
