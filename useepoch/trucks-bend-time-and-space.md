@@ -110,7 +110,9 @@ Because Daylight Savings Time ended on November 1, 2020, and everyone in Central
 
 ## What to do 
 
-The bottom line is that Wall Clock time creates bugs when the l
+The bottom line is that Wall Clock time creates bugs when the values apply to different Time Zone areas and require math operations, such as greater-than (sorting) and subtraction (time elapsed).
+
+These are avoidable by using UTC Time instead, and treating the display of a clock time as a format for display, not as an actual value. 
 
 
 ## Helpful sites
@@ -123,10 +125,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY0NzAzNzMsMTI4Njk1NTEyNSwzNz
-Q1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1
-LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5Mz
-Y3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwt
-MTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MT
-UzMjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
+eyJoaXN0b3J5IjpbMTk0Nzc2MjI4LDEyODY5NTUxMjUsMzc0NT
+UwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1
+OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2Nz
+YxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEy
+MjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1Mz
+IwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
