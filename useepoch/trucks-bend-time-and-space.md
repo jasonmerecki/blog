@@ -108,7 +108,7 @@ Gort's app calculates that the trip took 24 hours. But the client is upset again
 
 Because Daylight Savings Time ended on November 1, 2020, and everyone in Central Time Zone rolled back their clocks 1 hour, adding that hour overnight.
 
-## What to do 
+## Why this is hard  
 
 The bottom line is that Wall Clock time creates bugs when the values apply to different Time Zone areas and require math operations, such as greater-than (sorting) and subtraction (time elapsed).
 
@@ -116,14 +116,14 @@ These are avoidable by using UTC Time instead, and treating the display of a clo
 
 However, people think in Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00" and the computer engineer in San Francisco can read and understand the time.
 
-The challenge is that 
+The challenge is that the engineer reading the data may conclude that it "looks right", or they just overlook the actual s
 
 
 ## Eliminate datetime type! 
 
 Microsoft .NET and SQL Server both support a datetime type which cannot store offset information across time zone offsets.  The alternative is the datetimeoffset type, which defines an exact point in time (a UTC Time) and has offset information. 
 
-In my opinion, the very existence of the datetime type has made it easier for developers to fall into the pitfalls described above.  The datetimeoffset type should be used
+In my opinion, the very existence of the datetime type has made it easier for developers to fall into the pitfalls described above. 
 
 Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/standard/datetime/choosing-between-datetime) suggests that the datetimeoffset should be the default choice. 
 
@@ -138,7 +138,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDE2NTk0NywxMjg2OTU1MTI1LDM3ND
+eyJoaXN0b3J5IjpbMTk5NzM3NDE5NSwxMjg2OTU1MTI1LDM3ND
 U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
 NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
 c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
