@@ -136,7 +136,7 @@ For sorting pickup times, the underlying UTC Time value allows proper comparison
 | 16041**528**00000 | 2020-10-31 09:00 -05:00| Dallas, TX |
 | 16041**582**00000 | 2020-10-31 08:30 -07:00| San Francisco, CA |
 
-The GPS ping location updates are sent with a time offset, which all systems can store into a UTC Time type. Changing the app to use the offset results in this sorting, and the truck will appear to drive smoothly from East to West on the road
+The GPS ping location updates are sent with a time offset, which all systems can store into a UTC Time type. Changing the app to use the offset results in this sorting, and the truck will appear to drive smoothly from East to West on the road:
 
 | UTC Time | Ping time formatted | Lat/Lon location |
 |--|--|--|
@@ -145,6 +145,12 @@ The GPS ping location updates are sent with a time offset, which all systems can
 | 1604140860000 | 2020-10-31 05:41 -05:00 | 41.709001, -86.806262 |
 | 1604141520000 | 2020-10-31 05:52 -05:00 | 41.676503, -86.835408 |
 | 1604143500000 | 2020-10-31 06:25 -05:00 | 41.601892, -87.148836 |
+
+For the elapsed delivery time, storing the UTC Time creates the proper 
+
+| Pickup time format | Pickup Location | Delivery time format | Delivery Location|
+|--|--|--|--|
+| 2020-10-31 08:00 -05:00| Chicago, IL | 2020-11-01 08:00 -06:00| Houston, TX |
 
 
 
@@ -180,7 +186,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDk1NzcxMiwtMTU2MTQ3NzE0MCwtMj
+eyJoaXN0b3J5IjpbLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMj
 Y0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4
 MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5Mz
 Y4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEs
