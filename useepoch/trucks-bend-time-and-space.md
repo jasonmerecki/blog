@@ -154,6 +154,7 @@ For the elapsed delivery time, the UTC Time difference results in the proper ela
 |--|--|--|--|--|--|
 | 1604149200000 | 2020-10-31 08:00 -05:00| Chicago, IL | 1604239200000 | 2020-11-01 08:00 -06:00| Houston, TX |
 
+The difference between the delivery and the pickup is now 90000000 milliseconds, which is equivalent to 25 hours.
 
 
 ## Why this is hard  
@@ -188,7 +189,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODQwNTU3MywtODU2ODY1MzAxLC0xNT
+eyJoaXN0b3J5IjpbMTY0MzUzNzg2MywtODU2ODY1MzAxLC0xNT
 YxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1
 MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyND
 UwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEs
