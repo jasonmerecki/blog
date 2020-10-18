@@ -119,7 +119,7 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 
 This driver was paid for 25 hours even though this time is only 24 hours.  Gort is in a frenzy.  Both Denver and Phoenix are in Mountain Time Zone, what happened?
 
-Phoenix (and most of Arizona) do not observe Daylight Savings Time and did not roll back their clocks. 
+Phoenix (and most of Arizona) does not observe Daylight Savings Time and did not roll back their clocks. 
 
 
 ## Why this is hard  
@@ -154,7 +154,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTYzODg2MiwxMjg2OTU1MTI1LDM3ND
+eyJoaXN0b3J5IjpbLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3ND
 U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
 NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
 c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
