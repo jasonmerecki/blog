@@ -86,7 +86,7 @@ Next, Gort must collect location updates from the drivers making the deliveries.
 
 The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
-
+It looks like this delivery company has trucks that be
 
 
 
@@ -103,8 +103,9 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OT
-k5MzY3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkx
-MiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMT
-I3MTUzMjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
+eyJoaXN0b3J5IjpbLTExNTMxOTc1MSwxMTc3MDk5Njk0LDE4OT
+k5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAx
+OSwtNzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MSwxND
+M4MjA1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0MiwtMTk4NzMz
+MDIxOF19
 -->
