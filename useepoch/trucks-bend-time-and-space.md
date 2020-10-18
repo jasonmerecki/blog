@@ -66,9 +66,9 @@ Gort has a solution, allow the server to convert the location time to a local se
 
 | Pickup time | Location | Server Time|
 |--|--|--|
-| 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00 AM|
-| 2020-10-31 09:00 AM| Dallas, TX | 2020-10-31 10:00 AM|
-| 2020-10-31 08:30 AM| San Francisco, CA | 2020-10-31 11:30 AM|
+| 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00|
+| 2020-10-31 09:00| Dallas, TX | 2020-10-31 10:00|
+| 2020-10-31 08:30| San Francisco, CA | 2020-10-31 11:30|
 
 This seems to work... at first.
 
@@ -85,12 +85,16 @@ Next, Gort must collect location updates from the trucks making the deliveries. 
 | 2020-10-31 06:25 | 41.601892, -87.148836 |
 
 The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
+
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
+
 It looks like this delivery company has trucks that bend time and space! 
+
 Actually, the truck has crossed the time zone line. South of the Time Zone line, pings 3, 4, and 5 happened where clocks were set back 1 hour from those north of the line.
+
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
-Don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. That means Gort's application did not use all of the information sent by the GPS.
+This happened because, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. For example, the GPS can send "2020-10-31 05:52 -05:00" did not use all of the information sent by the GPS.
 
 ## More time math challenges
 
@@ -106,10 +110,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2OD
-YxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3
-NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNz
-A0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3Niwz
-MjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MD
-gxNDIsLTE5ODczMzAyMThdfQ==
+eyJoaXN0b3J5IjpbLTEzNjg2MDExMywxMjg2OTU1MTI1LDM3ND
+U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
+NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
+c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
+MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
+MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
 -->
