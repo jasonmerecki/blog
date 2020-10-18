@@ -114,6 +114,8 @@ The bottom line is that Wall Clock time creates bugs when the values apply to di
 
 These are avoidable by using UTC Time instead, and treating the display of a clock time as a format for display, not as an actual value. 
 
+This is surprisingly difficult for application engineers. 
+
 
 ## Helpful sites
 
@@ -125,10 +127,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Nzc2MjI4LDEyODY5NTUxMjUsMzc0NT
-UwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1
-OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2Nz
-YxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEy
-MjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1Mz
-IwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbMTU5MDcwNTE0OCwxMjg2OTU1MTI1LDM3ND
+U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
+NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
+c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
+MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
+MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
 -->
