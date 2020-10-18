@@ -114,8 +114,14 @@ The bottom line is that Wall Clock time creates bugs when the values apply to di
 
 These are avoidable by using UTC Time instead, and treating the display of a clock time as a format for display, not as an actual value. 
 
-However, it is not easy for computer engineers, because people think in Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00" and the 
+However, people think in Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00" and the computer engineer in San Francisco can read and understand the time.
 
+The challenge is that 
+
+
+## Eliminate datetime type! 
+
+I have teams working in Microsoft .NET and SQL Server, both of which allow a datetime type which has no variable offset information
 
 ## Helpful sites
 
@@ -127,10 +133,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzE4NTAsMTI4Njk1NTEyNSwzNzQ1NT
-A4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5
-MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3Nj
-EsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIy
-NzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMj
-A2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
+eyJoaXN0b3J5IjpbMjIxNTg4Mjc2LDEyODY5NTUxMjUsMzc0NT
+UwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1
+OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2Nz
+YxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEy
+MjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1Mz
+IwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
