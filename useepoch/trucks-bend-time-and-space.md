@@ -106,7 +106,11 @@ For the same pickup time as before, Gort's app also gets delivery time. Drivers 
 
 Gort's app calculates that the trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, and is confused, if the driver never crossed a Time Zone, why is this answer wrong?
 
-Because Daylight Savings Time ended on November 1, 2020, and everyone in Central Time Zone rolled back their clocks 1 hour, adding that hour overnight.
+It's wrong, because Daylight Savings Time ended on November 1, 2020, and everyone in Central Time Zone rolled back their clocks 1 hour, adding that hour overnight.
+
+Thus the driver is correct, the time between "2020-10-31 08:00" and "2020-11-01 08:00" is 25 hours, in the America/Chicago Time Zone.
+
+
 
 ## Why this is hard  
 
@@ -118,7 +122,7 @@ However, people think in Wall Clock time. No one can look at time 1602828000000 
 
 The challenge is that the engineer reading the data may conclude that it "looks right", or they may overlook the UTC Time value being stored and try to work only with the clock time being displayed. 
 
-Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time 
+Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
 
 ## Eliminate datetime type! 
@@ -140,7 +144,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkzMzgzMDMsMTI4Njk1NTEyNSwzNz
+eyJoaXN0b3J5IjpbLTE0ODkzNDE1NDMsMTI4Njk1NTEyNSwzNz
 Q1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1
 LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5Mz
 Y3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwt
