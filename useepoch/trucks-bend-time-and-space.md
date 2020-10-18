@@ -102,8 +102,9 @@ For the same pickup time as before, Gort's app also gets delivery time. Drivers 
 
 | Pickup time | Pickup Location | Delivery time | Delivery Location|
 |--|--|--|--|
-| 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00| 2020-10-31 09:00|
+| 2020-10-31 08:00| Chicago, IL | 2020-11-01 09:00| Houston, TX |
 
+Gort's app calculates that it took 
 
 ## Helpful sites
 
@@ -115,7 +116,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NDU0MjY2LDEyODY5NTUxMjUsMzc0NT
+eyJoaXN0b3J5IjpbMzc2NzU5MjgzLDEyODY5NTUxMjUsMzc0NT
 UwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1
 OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2Nz
 YxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEy
