@@ -94,10 +94,11 @@ Actually, the truck has crossed the time zone line. South of the Time Zone line,
 
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
-This happened because, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. For example, the GPS can send "2020-10-31 05:52 -05:00" did not use all of the information sent by the GPS.
+This happened because, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. For example, the GPS can send "2020-10-31 05:52 -05:00" but Gort's app truncated the offset.
 
 ## More time math challenges
 
+Gort 
 
 
 ## Helpful sites
@@ -110,10 +111,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg2MDExMywxMjg2OTU1MTI1LDM3ND
-U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
-NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
-c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
-MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
-MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbNjYwMTI2MjEsMTI4Njk1NTEyNSwzNzQ1NT
+A4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5
+MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3Nj
+EsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIy
+NzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMj
+A2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
