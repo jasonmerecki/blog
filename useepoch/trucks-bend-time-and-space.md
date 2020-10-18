@@ -88,7 +88,7 @@ The client asks Gort to plot these on a map to show the driver's route and progr
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
 It looks like this delivery company has trucks that bend time and space! 
 
-
+![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
 
 
 Don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information.
@@ -104,9 +104,9 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5Mz
-Y3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwt
-NzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4Mj
-A1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIx
-OF19
+eyJoaXN0b3J5IjpbMTIyNjMxMTI3MSw1OTM2ODIwLDExNzcwOT
+k2OTQsMTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUs
+LTg3NDI1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1OD
+cwNzUxLDE0MzgyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQy
+LC0xOTg3MzMwMjE4XX0=
 -->
