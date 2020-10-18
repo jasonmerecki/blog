@@ -98,7 +98,18 @@ This happened because, Gort's app only uses wall-clock time with no offset, even
 
 ## More time math challenges
 
-Gort 
+For the same pickup time as before, Gort's app also gets delivery time. Drivers get paid for their time on the road. 
+
+| Pickup time | Location | Server Time|
+|--|--|--|
+| 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00|
+| 2020-10-31 09:00| Dallas, TX | 2020-10-31 10:00|
+| 2020-10-31 08:30| San Francisco, CA | 2020-10-31 11:30|
+
+
+| Pickup time | Location | Server Time|
+|--|--|--|
+| 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00|
 
 
 ## Helpful sites
@@ -111,10 +122,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwMTI2MjEsMTI4Njk1NTEyNSwzNzQ1NT
-A4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5
-MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3Nj
-EsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIy
-NzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMj
-A2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
+eyJoaXN0b3J5IjpbMjA1MjQwNDE2NSwxMjg2OTU1MTI1LDM3ND
+U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
+NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
+c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
+MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
+MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
 -->
