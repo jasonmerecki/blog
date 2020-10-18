@@ -98,7 +98,7 @@ This happened because, Gort's app only uses wall-clock time with no offset, even
 
 ## More time math challenges
 
-For the same pickup time as before, Gort's app also gets delivery elapsed time. Drivers get paid for their time on the road. 
+For the same pickup time as before, Gort's app also gets delivery time. Drivers get paid for their time on the road, and Gort's app must calculate the elapsed time. 
 
 | Pickup time | Pickup Location | Delivery time | Delivery Location|
 |--|--|--|--|
@@ -169,6 +169,7 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
+It is further hard because in conversation, people will refer to an offset at the locations
 
 ## Eliminate datetime type! 
 
@@ -189,7 +190,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MjI1MTg3LC00NTMzMTMzMzUsLTg1Nj
+eyJoaXN0b3J5IjpbLTQ3MjQ4OTQ4LC00NTMzMTMzMzUsLTg1Nj
 g2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQy
 MzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1OD
 kwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwx
