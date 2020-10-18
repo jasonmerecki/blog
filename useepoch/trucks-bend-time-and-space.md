@@ -90,7 +90,7 @@ The client asks Gort to plot these on a map to show the driver's route and progr
 
 It looks like this delivery company has trucks that bend time and space! 
 
-Actually, the truck has crossed the time zone line. South of the Time Zone line, pings 3, 4, and 5 happened where clocks were set back 1 hour from those north of the line.
+Actually, the truck has crossed the time zone line. South of the Time Zone line, pings 1, 2, and 5 happened where clocks were set back 1 hour from those north of the line.
 
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
@@ -189,11 +189,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTMyMTU2NSwtNDUzMzEzMzM1LC04NT
-Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
-MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
-g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQs
-MTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3ND
-I1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUx
-XX0=
+eyJoaXN0b3J5IjpbNTU3MjI1MTg3LC00NTMzMTMzMzUsLTg1Nj
+g2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQy
+MzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1OD
+kwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwx
+ODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNzA0NSwtODc0Mj
+UwMTksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTFd
+fQ==
 -->
