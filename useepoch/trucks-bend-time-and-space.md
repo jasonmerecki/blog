@@ -128,6 +128,8 @@ What Gort needs in the app is the UTC Time for storage and math, and the offset 
 
 Briefly, here are the outcomes of the challenges above, using UTC Time.
 
+Note that the formatted display with the offset also helps visually explain the outcome; it is easier to see why 08:30 comes after 09:00 when the offset context is part of the output.
+
 For sorting pickup times, the underlying UTC Time value allows proper comparisons, and the indicated offset will format the UTC Time into a string the users will understand (bold highlighting included to emphasize the comparison outcome)
 
 | UTC Time | Pickup time formatted | Location |
@@ -146,7 +148,7 @@ The GPS ping location updates are sent with a time offset, which all systems can
 | 1604141520000 | 2020-10-31 05:52 -05:00 | 41.676503, -86.835408 |
 | 1604143500000 | 2020-10-31 06:25 -05:00 | 41.601892, -87.148836 |
 
-For the elapsed delivery time, storing the UTC Time creates the proper 
+For the elapsed delivery time, storing the UTC Time clearly shows the (and the
 
 | Pickup time format | Pickup Location | Delivery time format | Delivery Location|
 |--|--|--|--|
@@ -186,11 +188,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMj
-Y0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4
-MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5Mz
-Y4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEs
-MTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNz
-I0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2
-NF19
+eyJoaXN0b3J5IjpbLTExNTczMTIyOTksLTg1Njg2NTMwMSwtMT
+U2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1
+NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMj
+Q1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYx
+LDE4OTk5MzY3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMT
+Q5NTkxMiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5
+Nl19
 -->
