@@ -104,7 +104,11 @@ For the same pickup time as before, Gort's app also gets delivery time. Drivers 
 |--|--|--|--|
 | 2020-10-31 08:00| Chicago, IL | 2020-11-01 08:00| Houston, TX |
 
-Gort's app calculates that the trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, so they should have the same 
+Gort's app calculates that the trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, and is confused, if the driver never crossed a Time Zone, why is this answer wrong?
+
+Because Daylight Savings Time ended on November 1, 2020, and everyone in Central Time Zone rolled back their clocks 1 hour, adding that hour overnight.
+
+## What do ttime math challenges
 
 
 ## Helpful sites
@@ -117,10 +121,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjkxNDE4MSwxMjg2OTU1MTI1LDM3ND
-U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
-NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
-c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
-MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
-MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbLTIwNzgxNjgyMDgsMTI4Njk1NTEyNSwzNz
+Q1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1
+LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5Mz
+Y3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwt
+MTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MT
+UzMjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
