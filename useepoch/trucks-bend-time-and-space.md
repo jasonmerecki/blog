@@ -74,7 +74,7 @@ This seems to work... at first.
 
 ## Location pings/updates
 
-Next, Gort must collect location updates from the drivers making the deliveries.  The following GPS pings are received by Gort's application:
+Next, Gort must collect location updates from the trucks making the deliveries.  The following GPS pings are received by Gort's application:
 
 | Ping time | Lat/Lon location |
 |--|--|
@@ -87,7 +87,7 @@ Next, Gort must collect location updates from the drivers making the deliveries.
 The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
 It looks like this delivery company has trucks that bend time and space! 
-Actually, the 
+Actually, the truck has crossed the time zone line. Pings 3, 4, and 5 
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
 
@@ -104,7 +104,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0MzkxMjYwLDU5MzY4MjAsMTE3NzA5OT
+eyJoaXN0b3J5IjpbMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OT
 Y5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNzA0NSwt
 ODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3NiwzMjU4Nz
 A3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MDgxNDIs
