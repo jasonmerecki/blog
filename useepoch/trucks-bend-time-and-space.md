@@ -85,7 +85,7 @@ Next, Gort must collect location updates from the drivers making the deliveries.
 | 2020-10-31 06:25 | 41.601892, -87.148836 |
 
 The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
-![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01.png)
+![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01.png =250x250)
 
 
 
@@ -103,8 +103,8 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04Nz
-QyNTAxOSwtNzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1
-MSwxNDM4MjA1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0MiwtMT
-k4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbMTA0MTkwMTk1MiwxODk5OTM2NzYxLDE1MT
+QzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0
+NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1MzIwNjQsOD
+EyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
