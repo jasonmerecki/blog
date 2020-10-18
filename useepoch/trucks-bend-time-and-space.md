@@ -7,6 +7,8 @@
 
 **Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow Daylight Savings Time (or British Summer Time if you prefer). 
 
+The best lookup source to associate a Time Zone with a location is the IANA Time Zone database. 
+
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
 **UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and format it to a Wall-Clock display time for people in a specific Time Zone to read.  The offset is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Time which will format into a local Wall-Clock time.
@@ -171,7 +173,7 @@ Working with UTC Time requires the tech teams (engineering, QA) to shift how the
 
 It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing Daylight Savings Time, the offset CDT no longer applies.
 
-The best lookup source to associate a Time Zone with a location is the IANA Time Zone database. 
+
 
 
 ## Eliminate datetime type! 
@@ -193,11 +195,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNTYwMjAsLTQ1MzMxMzMzNSwtODU2OD
-Y1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIz
-NiwxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OT
-AzNzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4
-OTk5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNT
-AxOSwtNzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MV19
-
+eyJoaXN0b3J5IjpbMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NT
+Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
+MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
+g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQs
+MTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3ND
+I1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUx
+XX0=
 -->
