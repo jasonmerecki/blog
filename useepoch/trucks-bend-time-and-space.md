@@ -34,7 +34,7 @@ The same display time steps for San Francisco
 
 I purposely described this as a display formatting concern. I view this the same way as a computer storing a one byte binary value as 00000110 and formatting it to display as the number 6 for people to read. The underlying value did not change, only the display. 
 
-The key point to UTC time is that it is the *same time value no matter the Wall-Clock conversion.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, both at exactly UTC time 1602828000000.
+The key point to UTC Time is that it is the *same time value no matter the Wall-Clock format.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, both at exactly UTC time 1602828000000.
 
 
 # Gort goes to work
@@ -106,10 +106,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MD
-M3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5
-OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MD
-E5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0
-MzgyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3Mz
-MwMjE4XX0=
+eyJoaXN0b3J5IjpbMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2OD
+YxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3
+NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNz
+A0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3Niwz
+MjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MD
+gxNDIsLTE5ODczMzAyMThdfQ==
 -->
