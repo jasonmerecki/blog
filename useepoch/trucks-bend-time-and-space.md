@@ -126,12 +126,13 @@ What Gort needs in the app is the UTC Time for storage and math, and the offset 
 
 ## UTC Time solves this
 
-Briefly, here is what the challenges outlines above would 
-For sorting pickup times, the underlying UTC Time value allows proper comparisons
+Briefly, here are the outcomes of the challenges above, using UTC Time.
 
-| Pickup time | Location |
-|--|--|
-| 2020-10-31 08:00| Chicago, IL |
+For sorting pickup times, the underlying UTC Time value allows proper comparisons, and the indicated offset will format the UTC Time into a string the users will understand
+
+| UTC Time | Pickup time formatted | Location |
+|--|--|--|
+| 2020-10-31 08:00 -06:00| Chicago, IL |
 | 2020-10-31 08:30| San Francisco, CA |
 | 2020-10-31 09:00| Dallas, TX |
 
@@ -169,11 +170,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzMDI5MTQxLC0xNTYxNDc3MTQwLC0yNj
-Q5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgw
-Niw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNj
-gyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNjc2MSwx
-NTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0xMjI3Mj
-Q4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNTMyMDY0
-XX0=
+eyJoaXN0b3J5IjpbLTUwNjY1MzAyNSwtMTU2MTQ3NzE0MCwtMj
+Y0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4
+MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5Mz
+Y4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEs
+MTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNz
+I0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2
+NF19
 -->
