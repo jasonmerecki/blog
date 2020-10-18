@@ -118,9 +118,9 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 | 2020-10-31 08:00| Denver, CO | 2020-11-01 08:00| San Francisco, CA |
 | 2020-10-31 08:00| Phoenix, AZ | 2020-11-01 08:00| San Francisco, CA |
 
-This driver was paid for 25 hours even though this time is only 24 hours.  Gort is in a frenzy.  Both Denver and Phoenix are in Mountain Time Zone, what happened?
+The client reports that the first result should be 26 hours while the second is only 25 hours. Gort is in a frenzy, both Denver and Phoenix look like they are in Mountain Time Zone on a map. How could they be different?
 
-Phoenix (and most of Arizona) does not observe Daylight Savings Time and did not roll back their clocks. 
+Phoenix (and most of Arizona) does not observe Daylight Savings Time and did not roll back their clocks. Arizona is a special geographic Time Zone 
 
 
 ## Why this is hard  
@@ -155,11 +155,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIyNzIzMjAsLTI2NDkxNDIzNiwtMj
-Y0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYw
-MCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOT
-k2OTQsMTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUs
-LTg3NDI1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1OD
-cwNzUxLDE0MzgyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQy
-XX0=
+eyJoaXN0b3J5IjpbNzczNTU5MDc0LC0yNjQ5MTQyMzYsLTI2ND
+kxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAs
+MTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Nj
+k0LDE4OTk5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04
+NzQyNTAxOSwtNzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MD
+c1MSwxNDM4MjA1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0Ml19
+
 -->
