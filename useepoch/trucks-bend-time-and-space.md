@@ -87,11 +87,10 @@ Next, Gort must collect location updates from the trucks making the deliveries. 
 The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
 It looks like this delivery company has trucks that bend time and space! 
-Actually, the truck has crossed the time zone line. Pings 3, 4, and 5 happened in a Time Zone with
+Actually, the truck has crossed the time zone line. South of the Time Zone line, pings 3, 4, and 5 happened where clocks were set back 1 hour from those north of the line.
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
-
-Don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information.
+Don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. That means Gort's application did not use all of the information sent by the GPS.
 
 
 ## Helpful sites
@@ -104,9 +103,9 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDk5NDY1OSwxNTg5MDM3NzUxLDI0NT
-A0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwx
-ODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OT
-U5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYs
-LTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
+eyJoaXN0b3J5IjpbODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MD
+Q5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4
+OTk5MzY3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NT
+kxMiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5Niwt
+MTI3MTUzMjA2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
