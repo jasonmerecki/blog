@@ -115,7 +115,8 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 
 | Pickup time | Pickup Location | Delivery time | Delivery Location|
 |--|--|--|--|
-| 2020-10-31 08:00| Denver, CO | 2020-11-01 08:00| Phoenix, AZ |
+| 2020-10-31 08:00| Denver, CO | 2020-11-01 08:00| San Francisco, CA |
+| 2020-10-31 08:00| P, CO | 2020-11-01 08:00| San Francisco, CA |
 
 This driver was paid for 25 hours even though this time is only 24 hours.  Gort is in a frenzy.  Both Denver and Phoenix are in Mountain Time Zone, what happened?
 
@@ -154,11 +155,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyOD
-Y5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUx
-LDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNj
-c2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03
-MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMD
-UzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4
-XX0=
+eyJoaXN0b3J5IjpbNzgxNzQ1NTgwLC0yNjQ5MTQyMzYsLTI2ND
+kxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAs
+MTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Nj
+k0LDE4OTk5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04
+NzQyNTAxOSwtNzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MD
+c1MSwxNDM4MjA1Mzk2LC0xMjcxNTMyMDY0LDgxMjgwODE0Ml19
+
 -->
