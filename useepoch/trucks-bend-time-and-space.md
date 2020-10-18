@@ -87,7 +87,7 @@ Next, Gort must collect location updates from the trucks making the deliveries. 
 The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
 It looks like this delivery company has trucks that bend time and space! 
-Actually, the truck has crossed the time zone line. Pings 3, 4, and 5 happened in a Time Zone with 
+Actually, the truck has crossed the time zone line. Pings 3, 4, and 5 happened in a Time Zone with
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
 
@@ -104,9 +104,9 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNj
-gyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNjc2MSwx
-NTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0xMjI3Mj
-Q4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNTMyMDY0
-LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbLTg1NDk5NDY1OSwxNTg5MDM3NzUxLDI0NT
+A0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwx
+ODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OT
+U5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYs
+LTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
