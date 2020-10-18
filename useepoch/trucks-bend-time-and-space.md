@@ -132,9 +132,9 @@ For sorting pickup times, the underlying UTC Time value allows proper comparison
 
 | UTC Time | Pickup time formatted | Location |
 |--|--|--|
-| 2020-10-31 08:00 -06:00| Chicago, IL |
-| 2020-10-31 08:30| San Francisco, CA |
-| 2020-10-31 09:00| Dallas, TX |
+| 1604149200000 | 2020-10-31 08:00 -05:00| Chicago, IL |
+|  | 2020-10-31 09:00 -05:00| Dallas, TX |
+|  | 2020-10-31 08:30 -07:00| San Francisco, CA |
 
 
 
@@ -170,7 +170,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjY1MzAyNSwtMTU2MTQ3NzE0MCwtMj
+eyJoaXN0b3J5IjpbLTY1OTAzNTI5MywtMTU2MTQ3NzE0MCwtMj
 Y0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4
 MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5Mz
 Y4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEs
