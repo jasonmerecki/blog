@@ -121,7 +121,12 @@ The challenge is that
 
 ## Eliminate datetime type! 
 
-Microsoft .NET and SQL Server both support a datetime type which cannot store offset information across time zone offsets.  But the very existence of that type has made it easier for developers to fall into the pitfalls described above.
+Microsoft .NET and SQL Server both support a datetime type which cannot store offset information across time zone offsets.  The alternative is the datetimeoffset type, which does syoo
+
+Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/standard/datetime/choosing-between-datetime) suggests that the datetimeoffset should be the default choice. 
+
+But the very existence of the datetime type has made it easier for developers to fall into the pitfalls described above.
+
 
 
 
@@ -135,7 +140,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg3NTU1NjYzLDEyODY5NTUxMjUsMzc0NT
+eyJoaXN0b3J5IjpbNDIyODkxNTIxLDEyODY5NTUxMjUsMzc0NT
 UwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1
 OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2Nz
 YxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEy
