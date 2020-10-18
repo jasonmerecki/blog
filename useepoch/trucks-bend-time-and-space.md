@@ -114,7 +114,7 @@ The bottom line is that Wall Clock time creates bugs when the values apply to di
 
 These are avoidable by using UTC Time instead, and treating the display of a clock time as a format for display, not as an actual value. 
 
-This is surprisingly difficult for application engineers. 
+However, it is not easy for computer engineers, because people think in Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00" and the 
 
 
 ## Helpful sites
@@ -127,10 +127,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDcwNTE0OCwxMjg2OTU1MTI1LDM3ND
-U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
-NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
-c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
-MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
-MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbMTExMzE4NTAsMTI4Njk1NTEyNSwzNzQ1NT
+A4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5
+MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3Nj
+EsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIy
+NzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMj
+A2NCw4MTI4MDgxNDIsLTE5ODczMzAyMThdfQ==
 -->
