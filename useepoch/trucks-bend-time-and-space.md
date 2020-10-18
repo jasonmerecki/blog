@@ -110,14 +110,14 @@ It's wrong, because Daylight Savings Time ended on November 1, 2020, and everyon
 
 Thus the driver is correct, the time between "2020-10-31 08:00" and "2020-11-01 08:00" is 25 hours, in the America/Chicago Time Zone.
 
-Gort adds a routine in his app to add one hour to all the calculated durations on November 1, 2020.  Client is happy again. Until they find a different delivery:
+Gort adds a routine in his app to add one hour to all the calculated elapsed durations on November 1, 2020.  Client is happy again. Until they find a different delivery:
 
 
 | Pickup time | Pickup Location | Delivery time | Delivery Location|
 |--|--|--|--|
 | 2020-10-31 08:00| Denver, CO | 2020-11-01 08:00| Phoenix, AZ |
 
-This driver was 
+This driver was paid for 25 hours even though this time is only 24 hours.  Gort is simply 
 
 
 ## Why this is hard  
@@ -152,7 +152,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjk5NzY2MSwxMjg2OTU1MTI1LDM3ND
+eyJoaXN0b3J5IjpbMTY0NDczMzU0OSwxMjg2OTU1MTI1LDM3ND
 U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
 NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
 c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
