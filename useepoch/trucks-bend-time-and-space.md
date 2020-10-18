@@ -120,7 +120,7 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 
 The client reports that the first result should be 26 hours while the second is only 25 hours. Gort is in a frenzy, both Denver and Phoenix look like they are in Mountain Time Zone on a map. How could they be different?
 
-Phoenix (and most of Arizona) does not observe Daylight Savings Time and did not roll back their clocks. Arizona is a special geographic Time Zone called America/Phoenix. Remember, a Time Zone is a geographic region, it is not the same as an offset.
+Phoenix (and most of Arizona) does not observe Daylight Savings Time and did not roll back their clocks. Arizona is a special geographic Time Zone called America/Phoenix. Remember, a Time Zone is a geographic region where people agree how to set their clocks. It is not the actual offset, it only an area which agrees to apply an offset the same way.
 
 What Gort needs in the app is the UTC Time for storage and math, and the offset for a display format.  
 
@@ -157,7 +157,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk2OTMyNTAsLTI2NDkxNDIzNiwtMj
+eyJoaXN0b3J5IjpbLTIxMTE1MTk1OTEsLTI2NDkxNDIzNiwtMj
 Y0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYw
 MCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOT
 k2OTQsMTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUs
