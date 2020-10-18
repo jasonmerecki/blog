@@ -148,11 +148,11 @@ The GPS ping location updates are sent with a time offset, which all systems can
 | 1604141520000 | 2020-10-31 05:52 -05:00 | 41.676503, -86.835408 |
 | 1604143500000 | 2020-10-31 06:25 -05:00 | 41.601892, -87.148836 |
 
-For the elapsed delivery time, the UTC Time difference results in the proper elapsed time. And, the time format with the offset value helps the user understand why the difference is 25 hours:
+For the elapsed delivery time, the UTC Time difference results in the proper elapsed time. And, the time format with the offset value helps the user understand why the difference is 25 hours, they can see the offset changed between the pickup and delivery even though the locations are in the same Time Zone:
 
-| Pickup time format | Pickup Location | Delivery time format | Delivery Location|
-|--|--|--|--|
-| 2020-10-31 08:00 -05:00| Chicago, IL | 2020-11-01 08:00 -06:00| Houston, TX |
+| UTC Time pickup| Pickup time format | Pickup Location | UTC Time delivery | Delivery time format | Delivery Location|
+|--|--|--|--|--|--|
+| 1604149200000 | 2020-10-31 08:00 -05:00| Chicago, IL | 2020-11-01 08:00 -06:00| Houston, TX |
 
 
 
@@ -188,11 +188,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA0NzU2NzksLTg1Njg2NTMwMSwtMT
-U2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1
-NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMj
-Q1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYx
-LDE4OTk5MzY3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMT
-Q5NTkxMiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5
-Nl19
+eyJoaXN0b3J5IjpbODU1NTE2OTg4LC04NTY4NjUzMDEsLTE1Nj
+E0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUx
+MjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NT
+A0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwx
+ODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OT
+U5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTZd
+fQ==
 -->
