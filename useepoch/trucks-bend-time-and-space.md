@@ -171,7 +171,7 @@ Working with UTC Time requires the tech teams (engineering, QA) to shift how the
 
 It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing Daylight Savings Time, the offset CDT no longer applies.
 
-The best source to store a Time Zone with a location is the IANA Time Zone database. 
+The best lookup source to associate a Time Zone with a location is the IANA Time Zone database. 
 
 
 ## Eliminate datetime type! 
@@ -193,11 +193,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Nzg5NzcyMSwtNDUzMzEzMzM1LC04NT
-Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
-MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
-g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQs
-MTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3ND
-I1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUx
-XX0=
+eyJoaXN0b3J5IjpbMzExNTYwMjAsLTQ1MzMxMzMzNSwtODU2OD
+Y1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIz
+NiwxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OT
+AzNzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4
+OTk5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNT
+AxOSwtNzAxNDk1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MV19
+
 -->
