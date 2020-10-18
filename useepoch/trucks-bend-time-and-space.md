@@ -169,7 +169,9 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
-It is further hard because in conversation, people will refer to an offset at the location's "Time Zone" and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and that location stops observing Daylight Savings Time 
+It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing Daylight Savings Time, the offset CDT no longer applies.
+
+The best source to store a Time Zone with a location is the IANA Time Zone database. 
 
 
 ## Eliminate datetime type! 
@@ -191,7 +193,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzEyOTUzNCwtNDUzMzEzMzM1LC04NT
+eyJoaXN0b3J5IjpbMTc2Nzg5NzcyMSwtNDUzMzEzMzM1LC04NT
 Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
 MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
 g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQs
