@@ -107,7 +107,7 @@ For the same pickup time as before, Gort's app also gets delivery time. Drivers 
 | 2020-10-31 08:30| San Francisco, CA | 2020-10-31 11:30|
 
 
-| Pickup time | Location | Server Time|
+| Pickup time | PicLocation | Delivery |
 |--|--|--|
 | 2020-10-31 08:00| Chicago, IL | 2020-10-31 09:00|
 
@@ -122,10 +122,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjQwNDE2NSwxMjg2OTU1MTI1LDM3ND
-U1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUs
-NTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNj
-c2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0x
-MjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNT
-MyMDY0LDgxMjgwODE0MiwtMTk4NzMzMDIxOF19
+eyJoaXN0b3J5IjpbODY1MDQzODA1LDEyODY5NTUxMjUsMzc0NT
+UwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1
+OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2Nz
+YxLDE1MTQzMzcwNDUsLTg3NDI1MDE5LC03MDE0OTU5MTIsLTEy
+MjcyNDg0NzYsMzI1ODcwNzUxLDE0MzgyMDUzOTYsLTEyNzE1Mz
+IwNjQsODEyODA4MTQyLC0xOTg3MzMwMjE4XX0=
 -->
