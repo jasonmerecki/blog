@@ -84,7 +84,7 @@ Next, Gort must collect location updates from the trucks making the deliveries. 
 | 2020-10-31 06:23 | 41.765610, -86.743576 |
 | 2020-10-31 06:25 | 41.601892, -87.148836 |
 
-The client asks Gort to plot these on a map to show the driver's route and progress, with this result:
+The client asks Gort to plot these on a map to show the driver's route and progress. Naturally, Gort sorts the pings from earliest-to-latest to show progress over time, with this result:
 
 ![Mapped GPS pings](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01a.png)
 
@@ -189,11 +189,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzMxMzMzNSwtODU2ODY1MzAxLC0xNT
-YxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1
-MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyND
-UwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEs
-MTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxND
-k1OTEyLC0xMjI3MjQ4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2
+eyJoaXN0b3J5IjpbLTQ3MTMyMTU2NSwtNDUzMzEzMzM1LC04NT
+Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
+MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
+g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQs
+MTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3ND
+I1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUx
 XX0=
 -->
