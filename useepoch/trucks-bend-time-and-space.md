@@ -92,7 +92,8 @@ Actually, the truck has crossed the time zone line. South of the Time Zone line,
 
 Don't forget, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. That means Gort's application did not use all of the information sent by the GPS.
 
-## Location pings/updates
+## More time math challenges
+
 
 
 ## Helpful sites
@@ -105,10 +106,10 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NzIxNTcsODI2ODYxNjAwLDE1ODkwMz
-c3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5
-OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNzA0NSwtODc0MjUwMT
-ksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3NiwzMjU4NzA3NTEsMTQz
-ODIwNTM5NiwtMTI3MTUzMjA2NCw4MTI4MDgxNDIsLTE5ODczMz
-AyMThdfQ==
+eyJoaXN0b3J5IjpbMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MD
+M3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5
+OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MD
+E5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUxLDE0
+MzgyMDUzOTYsLTEyNzE1MzIwNjQsODEyODA4MTQyLC0xOTg3Mz
+MwMjE4XX0=
 -->
