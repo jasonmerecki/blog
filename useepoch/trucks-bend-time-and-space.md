@@ -110,6 +110,13 @@ It's wrong, because Daylight Savings Time ended on November 1, 2020, and everyon
 
 Thus the driver is correct, the time between "2020-10-31 08:00" and "2020-11-01 08:00" is 25 hours, in the America/Chicago Time Zone.
 
+Gort adds a routine in his How about this one:
+
+| Pickup time | Pickup Location | Delivery time | Delivery Location|
+|--|--|--|--|
+| 2020-10-31 08:00| Denver, CO | 2020-11-01 08:00| Phoenix, AZ |
+
+Gort checks and confirms 
 
 
 ## Why this is hard  
@@ -144,7 +151,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODkzNDE1NDMsMTI4Njk1NTEyNSwzNz
+eyJoaXN0b3J5IjpbLTE1Mjc5MzA2NzUsMTI4Njk1NTEyNSwzNz
 Q1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1
 LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5Mz
 Y3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwt
