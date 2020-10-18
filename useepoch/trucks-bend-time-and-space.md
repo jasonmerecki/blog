@@ -128,13 +128,14 @@ What Gort needs in the app is the UTC Time for storage and math, and the offset 
 
 Briefly, here are the outcomes of the challenges above, using UTC Time.
 
-For sorting pickup times, the underlying UTC Time value allows proper comparisons, and the indicated offset will format the UTC Time into a string the users will understand
+For sorting pickup times, the underlying UTC Time value allows proper comparisons, and the indicated offset will format the UTC Time into a string the users will understand (bold highlighting included to emphasize the comparison outcome)
+
 
 | UTC Time | Pickup time formatted | Location |
 |--|--|--|
-| 1604149200000 | 2020-10-31 08:00 -05:00| Chicago, IL |
-| 1604152800000 | 2020-10-31 09:00 -05:00| Dallas, TX |
-| 1604158200000 | 2020-10-31 08:30 -07:00| San Francisco, CA |
+| 16041**492**00000 | 2020-10-31 08:00 -05:00| Chicago, IL |
+| 16041**528**00000 | 2020-10-31 09:00 -05:00| Dallas, TX |
+| 16041**582**00000 | 2020-10-31 08:30 -07:00| San Francisco, CA |
 
 The GPS ping location updates are sent with a time offset, which all systems can store into a UTC Time type. Changing the app to use the offset results in this sorting, and the truck will appear to drive smoothly from East to West on the road
 
@@ -180,11 +181,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyODQ4NTk0LC0xNTYxNDc3MTQwLC0yNj
-Q5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgw
-Niw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNj
-gyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNjc2MSwx
-NTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEyLC0xMjI3Mj
-Q4NDc2LDMyNTg3MDc1MSwxNDM4MjA1Mzk2LC0xMjcxNTMyMDY0
-XX0=
+eyJoaXN0b3J5IjpbLTYyNjM0ODY1NywtMTU2MTQ3NzE0MCwtMj
+Y0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4
+MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5Mz
+Y4MjAsMTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEs
+MTUxNDMzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNz
+I0ODQ3NiwzMjU4NzA3NTEsMTQzODIwNTM5NiwtMTI3MTUzMjA2
+NF19
 -->
