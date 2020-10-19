@@ -23,7 +23,7 @@ Arizona offers a good illustration. Most of the state does not observe Daylight 
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not o
+The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observed Daylight Savings Time. The synonym for -07:00 used to describe this offset is commonly Mountain Standard Time (although some systems call this "Arizona Time" 
 
 
 ## Putting it together
@@ -203,11 +203,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU1NjU3MjYsLTQ0NzkzMDgxOSwtNj
-c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
-MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
-wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
-Nzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OT
-k5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAx
-OV19
+eyJoaXN0b3J5IjpbMTU5NjY5MzY4MiwtNDQ3OTMwODE5LC02Nz
+Y3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUz
+MDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LD
+EyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3
+NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OT
+kzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5
+XX0=
 -->
