@@ -17,6 +17,10 @@ The best lookup source to associate a Time Zone with a location is the IANA Time
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
+Be careful of sites which present a reference list of Time Zone when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two are listed below.
+
+
+
 
 ## Putting it together
 
@@ -195,11 +199,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NT
-Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
-MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
-g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQs
-MTg5OTkzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3ND
-I1MDE5LC03MDE0OTU5MTIsLTEyMjcyNDg0NzYsMzI1ODcwNzUx
-XX0=
+eyJoaXN0b3J5IjpbLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NT
+MzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0
+MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsOD
+I2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAs
+MTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxND
+MzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3
+Nl19
 -->
