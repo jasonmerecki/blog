@@ -19,11 +19,11 @@ Since these offset names are also called "Time Zones" in conversation, it can cr
 
 Be careful of sites which present a reference list of Time Zones when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
-Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone, which means Denver can have an offset of MDT while the Phoenix offset is MST, and they represent the same UTC Time point:
+Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone.  This means Denver can have an offset of MDT while the Phoenix offset is MST, while they represent the same UTC Time point:
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Savings Time. The name for -07:00 to describe this offset is "Mountain Standard Time" (although [some systems will also call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone name from a UTC Offset name).
+The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Savings Time. The name for -07:00 to describe this offset is "Mountain Standard Time", but that describes the offset, not the T (although [some systems will also call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone name from a UTC Offset name).
 
 
 ## Putting it together
@@ -211,7 +211,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwMDE0MDk3LC0yMzkwNjU1NCwtMTk3ND
+eyJoaXN0b3J5IjpbODk5MjU1MDI0LC0yMzkwNjU1NCwtMTk3ND
 UwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5Njkx
 MiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLT
 I2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUw
