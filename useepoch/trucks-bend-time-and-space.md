@@ -200,14 +200,22 @@ World clock converter: https://www.timeanddate.com/worldclock/converter.html
 Another way to describe these ideas
 https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
+These two sites list Time Zone abbreviations but they actually mean UTC Offset names
+
+https://www.timeanddate.com/time/zones/
+
+https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviations.shtml
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzMzMDU0MSwtNDQ3OTMwODE5LC02Nz
-Y3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUz
-MDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LD
-EyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3
-NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OT
-kzNjc2MSwxODk5OTM2NzYxLDE1MTQzMzcwNDUsLTg3NDI1MDE5
-XX0=
+eyJoaXN0b3J5IjpbLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNj
+c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
+MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
+wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
+Nzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OT
+k5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAx
+OV19
 -->
