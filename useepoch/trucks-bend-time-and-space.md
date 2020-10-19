@@ -19,7 +19,7 @@ Since these offset names are also called "Time Zones" in conversation, it can cr
 
 Be careful of sites which present a reference list of Time Zone when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
-Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone
+Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone, which means Denver can have an offset of MDT while the Phoenix offset is MST, and they represent the same UTC Time point:
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
@@ -203,7 +203,7 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTI2Mzk1MzMsLTQ0NzkzMDgxOSwtNj
+eyJoaXN0b3J5IjpbLTE0MjM1NTU0MDksLTQ0NzkzMDgxOSwtNj
 c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
 MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
 wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
