@@ -17,7 +17,7 @@ The best lookup source to associate a Time Zone with a location is the IANA Time
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
-Be careful of sites which present a reference list of Time Zone when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
+Be careful of sites which present a reference list of Time Zones when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
 Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone, which means Denver can have an offset of MDT while the Phoenix offset is MST, and they represent the same UTC Time point:
 
@@ -211,11 +211,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00ND
-c5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMz
-MzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC
-0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYx
-NjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3Nz
-A5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNzA0
-NV19
+eyJoaXN0b3J5IjpbNTEwMDE0MDk3LC0yMzkwNjU1NCwtMTk3ND
+UwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5Njkx
+MiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLT
+I2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUw
+ODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OT
+M2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2NzYx
+XX0=
 -->
