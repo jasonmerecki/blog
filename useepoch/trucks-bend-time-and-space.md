@@ -7,7 +7,7 @@
 
 **Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow Daylight Savings Time (or British Summer Time if you prefer). 
 
-The best lookup source to associate a Time Zone with a location is the IANA Time Zone database. 
+The best lookup source to associate a Time Zone with a location is the IANA Time Zone database.  A good example of an actual Time Zone map by this definition is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/).
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -211,11 +211,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNj
-c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
-MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
-wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
-Nzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OT
-k5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAx
-OV19
+eyJoaXN0b3J5IjpbLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00ND
+c5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMz
+MzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC
+0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYx
+NjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3Nz
+A5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNzA0
+NV19
 -->
