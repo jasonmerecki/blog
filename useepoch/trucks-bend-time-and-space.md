@@ -17,7 +17,7 @@ The best lookup source to associate a Time Zone with a location is the IANA Time
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
-Be careful of sites which present a reference list of Time Zone when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two are listed below.
+Be careful of sites which present a reference list of Time Zone when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
 
 
@@ -189,7 +189,7 @@ In my opinion, the very existence of the datetime type has made it easier for de
 Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/standard/datetime/choosing-between-datetime) suggests that the datetimeoffset should be the default choice. 
 
 
-## Helpful sites
+## Helpful Links
 
 World clock converter: https://www.timeanddate.com/worldclock/converter.html
 
@@ -199,11 +199,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NT
-MzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0
-MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsOD
-I2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAs
-MTE3NzA5OTY5NCwxODk5OTM2NzYxLDE4OTk5MzY3NjEsMTUxND
-MzNzA0NSwtODc0MjUwMTksLTcwMTQ5NTkxMiwtMTIyNzI0ODQ3
-Nl19
+eyJoaXN0b3J5IjpbLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2Nj
+IwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3
+MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LD
+M3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkw
+NTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OT
+kzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAxOSwtNzAxNDk1OTEy
+XX0=
 -->
