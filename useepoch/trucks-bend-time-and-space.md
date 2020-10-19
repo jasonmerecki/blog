@@ -19,7 +19,7 @@ Since these offset names are also called "Time Zones" in conversation, it can cr
 
 Be careful of sites which present a reference list of Time Zone when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
-Arizona offers a good illustration. Most of the state does not observed Daylight Savings time, but the state is usually associated with Mountain Time Zone.
+Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
@@ -201,11 +201,11 @@ https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0NzQzMjIxLC00NDc5MzA4MTksLTY3Nj
-c2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLTg1Njg2NTMw
-MSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMT
-I4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3
-NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5NCwxODk5OT
-M2NzYxLDE4OTk5MzY3NjEsMTUxNDMzNzA0NSwtODc0MjUwMTld
-fQ==
+eyJoaXN0b3J5IjpbLTEzMDg0MDYxMzUsLTQ0NzkzMDgxOSwtNj
+c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
+MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
+wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
+Nzc1MSwyNDUwNDkwNTUsNTkzNjgyMCwxMTc3MDk5Njk0LDE4OT
+k5MzY3NjEsMTg5OTkzNjc2MSwxNTE0MzM3MDQ1LC04NzQyNTAx
+OV19
 -->
