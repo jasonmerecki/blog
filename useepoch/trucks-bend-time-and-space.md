@@ -23,7 +23,7 @@ Arizona offers a good illustration. Most of the state does not observe Daylight 
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Savings Time. The name for -07:00 to describe this offset is "Mountain Standard Time", but that describes the offset, not the T (although [some systems will also call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone name from a UTC Offset name).
+The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Savings Time. The name for -07:00 to describe this offset is "Mountain Standard Time" (and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone region from a UTC Offset name).
 
 
 ## Putting it together
@@ -211,11 +211,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MjU1MDI0LC0yMzkwNjU1NCwtMTk3ND
-UwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5Njkx
-MiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLT
-I2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUw
-ODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OT
-M2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MSwxODk5OTM2NzYx
-XX0=
+eyJoaXN0b3J5IjpbLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5Nz
+Q1MDM4NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5
+MTIsLTQ1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC
+0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1
+MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNT
+kzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNjc2
+MV19
 -->
