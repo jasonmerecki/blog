@@ -3,10 +3,7 @@
 
 ## Gort goes to work
 
-Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time manner.
-These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
-
-
+A computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking about time from a wall-clock time, and chooses to store the date and time values in a wall-clock way when he reads it. These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
 
 The client will have package pickup and dropoff times around North America. The incoming schedule data Gort receives looks like this:
 
@@ -30,7 +27,7 @@ The client is upset. The pickup in San Francisco is in Pacific time zone, and 08
 
 **Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
 
-**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow Daylight Savings Time (or British Summer Time if you prefer). 
+**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow Daylight Saving Time (or British Summer Time if you prefer). 
 
 The best lookup source to associate a Time Zone with a location is the IANA Time Zone database.  A good example of an actual Time Zone map by this definition is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/).
 
@@ -44,11 +41,11 @@ Since these offset names are also called "Time Zones" in conversation, it can cr
 
 Be careful of sites which present a reference list of Time Zones when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
-Arizona offers a good illustration. Most of the state does not observe Daylight Savings time, and the state is usually associated with Mountain Time Zone.  This means Denver can have an offset of MDT while the Phoenix offset is MST, while they represent the same UTC Time point:
+Arizona offers a good illustration. Most of the state does not observe Daylight Saving time, and the state is usually associated with Mountain Time Zone.  This means Denver can have an offset of MDT while the Phoenix offset is MST, while they represent the same UTC Time point:
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Savings Time. The name for -07:00 to describe this offset is "Mountain Standard Time" (and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone region from a UTC Offset name).
+The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Saving Time. The name for -07:00 to describe this offset is "Mountain Standard Time" (and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone region from a UTC Offset name).
 
 
 ## Putting it together
@@ -119,7 +116,7 @@ For the same pickup time as before, Gort's app also gets delivery time. Drivers 
 
 Gort's app calculates that the trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, and is confused, if the driver never crossed a Time Zone, why is this answer wrong?
 
-It's wrong, because Daylight Savings Time ended on November 1, 2020, and everyone in America/Chicago Time Zone rolled back their clocks 1 hour, adding that hour overnight.
+It's wrong, because Daylight Saving Time ended on November 1, 2020, and everyone in America/Chicago Time Zone rolled back their clocks 1 hour, adding that hour overnight.
 
 Thus the driver is correct, the time between "2020-10-31 08:00" and "2020-11-01 08:00" is 25 hours, in the America/Chicago Time Zone.
 
@@ -133,7 +130,7 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 
 The client reports that the first result should be 26 hours while the second is only 25 hours. Gort is in a frenzy, both Denver and Phoenix look like they are in Mountain Time Zone on a map. How could they be different?
 
-Phoenix (and most of Arizona) does not observe Daylight Savings Time and did not roll back their clocks. Arizona is a special geographic Time Zone called America/Phoenix. Remember, a Time Zone is a geographic region where people agree how to apply an offset, but the offset may be different in the same Time Zone depending on the time of the year. 
+Phoenix (and most of Arizona) does not observe Daylight Saving Time and did not roll back their clocks. Arizona is a special geographic Time Zone called America/Phoenix. Remember, a Time Zone is a geographic region where people agree how to apply an offset, but the offset may be different in the same Time Zone depending on the time of the year. 
 
 What Gort needs in the app is the UTC Time for storage and math, and the offset for a display format.  
 
@@ -182,7 +179,7 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
-It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing Daylight Savings Time, the offset CDT no longer applies.
+It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing Daylight Saving Time, the offset CDT no longer applies.
 
 
 
@@ -214,11 +211,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTI2MiwtNjU1MjEwMjE1LC0yMzkwNj
-U1NCwtMTk3NDUwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQs
-MTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1Nj
-E0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUx
-MjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NT
-A0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MV19
-
+eyJoaXN0b3J5IjpbLTM2NjEyNzk2MiwtNjU1MjEwMjE1LC0yMz
+kwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1
+MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLT
+E1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5
+NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLD
+I0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2
+MV19
 -->
