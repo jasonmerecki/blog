@@ -1,6 +1,31 @@
 # Trucks Bend Time And Space!
 *Or, why time is hard in computer science.*
 
+## Gort goes to work
+
+Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time manner.
+These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
+
+
+
+The client will have package pickup and dropoff times around North America. The incoming schedule data Gort receives looks like this:
+
+| Pickup time |  |
+|--|--|
+| 2020-10-31 08:00|  |
+| 2020-10-31 08:30|  |
+| 2020-10-31 09:00|  |
+
+The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort sorts, adds the location to the output and gets this result:
+
+| Pickup time | Location |
+|--|--|
+| 2020-10-31 08:00| Chicago, IL |
+| 2020-10-31 08:30| San Francisco, CA |
+| 2020-10-31 09:00| Dallas, TX |
+
+The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison. 
+
 ## First, some definitions
 
 **Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
@@ -47,30 +72,8 @@ I purposely described this as a display formatting concern. I view this the same
 The key point to UTC Time is that it is the *same time value no matter the Wall-Clock format.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, both at exactly UTC time 1602828000000.
 
 
-# Gort goes to work
-
-Let's say a computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking in Wall-Clock time, and chooses to store the date and time values in a Wall-Clock time manner.
-These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
 
 ## Scheduled pickup time
-
-The client will have package pickup and dropoff times around North America. The incoming schedule data Gort receives looks like this:
-
-| Pickup time |  |
-|--|--|
-| 2020-10-31 08:00|  |
-| 2020-10-31 08:30|  |
-| 2020-10-31 09:00|  |
-
-The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort sorts, adds the location to the output and gets this result:
-
-| Pickup time | Location |
-|--|--|
-| 2020-10-31 08:00| Chicago, IL |
-| 2020-10-31 08:30| San Francisco, CA |
-| 2020-10-31 09:00| Dallas, TX |
-
-The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison. 
 
 Gort has a solution, allow the server to convert the location time to a local server time.   If all times are expressed as a local server time, then the comparison works.
 
@@ -211,11 +214,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5Nz
-Q1MDM4NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5
-MTIsLTQ1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC
-0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1
-MDgwNiw4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNT
-kzNjgyMCwxMTc3MDk5Njk0LDE4OTk5MzY3NjEsMTg5OTkzNjc2
-MV19
+eyJoaXN0b3J5IjpbLTE4OTI2MiwtNjU1MjEwMjE1LC0yMzkwNj
+U1NCwtMTk3NDUwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQs
+MTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1Nj
+E0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUx
+MjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NT
+A0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTQsMTg5OTkzNjc2MV19
+
 -->
