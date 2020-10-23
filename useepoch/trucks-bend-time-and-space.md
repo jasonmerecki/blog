@@ -202,7 +202,7 @@ Please, developers, do not use datetime. I understand datetimeoffset is sometime
 
 ## My Pet Peeve 2: Do not use 'standard' to describe the Time Zone! 
 
-It's common to see people use the word 'standard' when giving time zone context.  For example: "the server upgrade will start at 2020-10-12 19:00 Eastern Standard Time."  But that's probably wrong, because EST is a -05:00 offset, and the Eastern time zone in the U.S. observes daylight saving time on October 12.
+It's common to see people use the word 'standard' when giving time zone context.  For example: "the server upgrade will start at 2020-10-12 19:00 Eastern Standard Time."  But that's probably wrong, because EST is a -05:00 offset, and the Eastern time zone in the U.S. observes daylight saving time on October 12, equivalent to -04:00 offset.
 
 I promise, now that you have that description of 'standard' versus 'daylight' in the context of a displayed time, you will start to notice the apps that get it right, and those that make mistakes.
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDgwMTIxLDE4MzI4ODU1MDMsMTM5ND
-EzMzI3NSw4Njg3MTI2NjMsMTA0MTk5NTM4MywtMzY2MTI3OTYy
-LC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00ND
-c5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMz
-MzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC
-0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYx
-NjAwXX0=
+eyJoaXN0b3J5IjpbMzQ0NjI3ODUwLDEwNTA4MDEyMSwxODMyOD
+g1NTAzLDEzOTQxMzMyNzUsODY4NzEyNjYzLDEwNDE5OTUzODMs
+LTM2NjEyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3ND
+UwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5Njkx
+MiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLT
+I2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUw
+ODA2XX0=
 -->
