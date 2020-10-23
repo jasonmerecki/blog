@@ -202,18 +202,19 @@ Please, developers, do not use datetime. I understand datetimeoffset is sometime
 
 ## My Pet Peeve 2: Do not use 'standard' to describe the Time Zone! 
 
-It's 
+It's common to see people use 
+
+And I promise, now that you have read my description here, you will start to notice the apps that get it right, and those that make mistakes.
 
 
 ## Helpful Links
 
-World clock converter: https://www.timeanddate.com/worldclock/converter.html
+World clock converter, where the correct offset name is displayed: https://www.timeanddate.com/worldclock/converter.html
 
-Another way to describe these ideas
+Another article that describes these ideas:
 https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
-These two sites list Time Zone abbreviations but they actually mean UTC Offset names
-
+These two sites list Time Zone abbreviations but they actually mean UTC Offset names:
 https://www.timeanddate.com/time/zones/
 
 https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviations.shtml
@@ -223,11 +224,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxNzA0ODkzLDEwNDE5OTUzODMsLTM2Nj
-EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
-NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
-UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
-NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
-gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
-XX0=
+eyJoaXN0b3J5IjpbLTExODA1MTM2MTEsMTA0MTk5NTM4MywtMz
+Y2MTI3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAz
+ODU2LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC
+00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0
+OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MD
+YsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4
+MjBdfQ==
 -->
