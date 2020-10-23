@@ -186,11 +186,11 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
-It is further hard because of the casual way people use the term Time Zone to describe an offset. It's easy to conclude storing Eastern Standard Time with a location will always convert correctly, but it only converts during that time of year the location is not observing daylight saving time.
+It is further hard because of the casual way people use the term Time Zone to describe an offset. It's easy to conclude that using Eastern Standard Time will always convert correctly, but that is the offset -05:00, and does not apply to the location during daylight saving time.
 
 
 
-## Opinion 1: Eliminate datetime type! 
+## My Pet Peeve 1: Eliminate datetime type! 
 
 Microsoft .NET and SQL Server both support a datetime type which cannot store offset information across time zone offsets.  The alternative is the datetimeoffset type, which defines an exact point in time (a UTC Time) and has offset information. 
 
@@ -200,9 +200,9 @@ Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/sta
 
 Please, developers, do not use datetime. I understand datetimeoffset is sometimes harder to use and read, but it avoids bugs which are very difficult to solve later.
 
-## Opinion 2: Do not use 'standard' to describe the Time Zone! 
+## My Pet Peeve 2: Do not use 'standard' to describe the Time Zone! 
 
-
+It's 
 
 
 ## Helpful Links
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjQ0MTIyNSwxMDQxOTk1MzgzLC0zNj
-YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
-NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
-Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
-MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNi
-w4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgy
-MF19
+eyJoaXN0b3J5IjpbMjUxNzA0ODkzLDEwNDE5OTUzODMsLTM2Nj
+EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
+NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
+UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
+NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
+gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
+XX0=
 -->
