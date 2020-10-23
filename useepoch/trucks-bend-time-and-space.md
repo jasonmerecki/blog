@@ -52,9 +52,9 @@ Arizona offers a good illustration. The state's legal Time Zone is Mountain Time
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The key difference is that Phoenix is in the Time Zone area named  "America/Phoenix".  It defines the geographical area  where people agree to set calendars and clocks together. Since this area has agreed to have a -07:00 offset all year long, it is separate from the "America/Denver" zone, where 
+The key difference is that Phoenix is in the Time Zone area named  "America/Phoenix".  It defines the geographical area  where people agree to set calendars and clocks together., and have a -07:00 offset all year long. It is separate from the "America/Denver" zone, where those people have agreed to observe daylight saving time. They are both Mountain Time on a map, but are distinct Time Zones since they set clocks differently. 
 
-and does not observe daylight saving time. The name for -07:00 to describe this offset is "Mountain Standard Time" (and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone region from a UTC Offset name).
+(and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further confusing since that is neither a Time Zone nor an offset).
 
 
 ## Putting it together
@@ -220,11 +220,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3NDQ0ODQ1LDEwNDE5OTUzODMsLTM2Nj
-EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
-NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
-UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
-NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
-gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
-XX0=
+eyJoaXN0b3J5IjpbLTM5NzYzNjM4MSwxMDQxOTk1MzgzLC0zNj
+YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
+NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
+Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
+MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNi
+w4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgy
+MF19
 -->
