@@ -18,7 +18,7 @@ The client will have package pickup and dropoff times around North America.  The
 | 2020-10-31 08:30|  |
 | 2020-10-31 09:00|  |
 
-Gort follows his client's request and sorted the pickup times sorted from earliest to latest, so they can coordinate their drivers. Then Gord adds the location to the output, and gets this result:
+Gort follows his client's request and sorted the pickup times from earliest to latest, so they can coordinate their drivers. Then Gord adds the location to the output, and gets this result:
 
 | Pickup time | Location |
 |--|--|
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDEzMzI3NSw4Njg3MTI2NjMsMTA0MT
-k5NTM4MywtMzY2MTI3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0
-LC0xOTc0NTAzODU2LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNj
-YyMDk2OTEyLC00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3
-NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNS
-wzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5
-MDU1XX0=
+eyJoaXN0b3J5IjpbMTU2MzgzNjQyMiwxMzk0MTMzMjc1LDg2OD
+cxMjY2MywxMDQxOTk1MzgzLC0zNjYxMjc5NjIsLTY1NTIxMDIx
+NSwtMjM5MDY1NTQsLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNj
+c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
+MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
+wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
+Nzc1MV19
 -->
