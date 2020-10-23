@@ -44,7 +44,7 @@ People may be surprised to see odd sections of their legal Time Zone split into 
 
 **UTC Offset:** The value that allows computers to take UTC Time and a Time Zone, and format it to a Wall-Clock display time for people in a specific Time Zone to read.  The offset is expressed in hours and minutes, such that +05:30 means add 5 hours and 30 minutes to the UTC Time, which will format into a local Wall-Clock time.
 
-**UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time above, Friday October 16 6:00 AM GMT, the offset in India is +05:30 and displays as India Standard Time (IST) while in San Francisco the offset is -07:00, and displays as Pacific Daylight Time (PDT).
+**UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time above, Friday October 16 6:00 AM GMT, the offset in Mumbai is +05:30 and displays as India Standard Time (IST) while in San Francisco the offset is -07:00, and displays as Pacific Daylight Time (PDT).
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjg4NTUwMywxMzk0MTMzMjc1LDg2OD
-cxMjY2MywxMDQxOTk1MzgzLC0zNjYxMjc5NjIsLTY1NTIxMDIx
-NSwtMjM5MDY1NTQsLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNj
-c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
-MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
-wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
-Nzc1MV19
+eyJoaXN0b3J5IjpbMTA1MDgwMTIxLDE4MzI4ODU1MDMsMTM5ND
+EzMzI3NSw4Njg3MTI2NjMsMTA0MTk5NTM4MywtMzY2MTI3OTYy
+LC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00ND
+c5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMz
+MzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC
+0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYx
+NjAwXX0=
 -->
