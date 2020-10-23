@@ -59,14 +59,14 @@ The key difference is that Phoenix is in the Time Zone area named  "America/Phoe
 
 ## Putting it together
 
-By example, a UTC time value of 1602828000000 and a Time Zone of India Time (i.e. Asia/Kolkata) goes through these steps:
+By example, a UTC time value of 1602828000000 and a location of Mumbai goes through these steps:
 
  - Start with UTC Time 1602828000000
  - Lookup the offset for Asia/Kolkata for that time of year, which is +05:30 
  - Applies the offset hours/minutes, resulting in a 'local' millisecond time
  - Format the result using calendar/clock fields, resulting in "October 16, 2020 11:30 AM"
 
-The same display time steps for San Francisco 
+The same display time steps for San Francisco:
 
  -  Start with UTC Time 1602828000000
  - Lookup the offset for America/Los_Angeles for that time of year, which is +07:00 
@@ -77,11 +77,9 @@ I purposely described this as a display formatting concern. I view this the same
 
 The key point to UTC Time is that it is the *same time value no matter the Wall-Clock format.*  People in Mumbai are enjoying lunch while people in San Francisco are enjoying their late night, both at exactly UTC time 1602828000000.
 
-
-
 ## Scheduled pickup time
 
-Gort has a solution, allow the server to convert the location time to a local server time.   If all times are expressed as a local server time, then the comparison works.
+Getting back to our computer engineer, Gort has a solution for the pickup time sorting issue. He adds a column to store the equivalent server to convert the location time to a local server time.   If all times are expressed as a local server time, then the comparison works.
 
 | Pickup time | Location | Server Time|
 |--|--|--|
@@ -220,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODY0NDg2NiwxMDQxOTk1MzgzLC0zNj
+eyJoaXN0b3J5IjpbMTA0NDIzNDAyNywxMDQxOTk1MzgzLC0zNj
 YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
 NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
 Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
