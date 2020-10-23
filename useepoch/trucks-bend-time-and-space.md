@@ -115,19 +115,19 @@ This unusual mapping happened because Gort's app only uses wall-clock time with 
 
 ## More time math challenges
 
-For the same pickup time as before, Gort's app also gets delivery time. Drivers get paid for their time on the road, and Gort's app must calculate the elapsed time. 
+For the same pickups time as before, Gort's app also gets delivery time. Drivers get paid for their time on the road, and Gort's app must calculate the elapsed time. 
 
 | Pickup time | Pickup Location | Delivery time | Delivery Location|
 |--|--|--|--|
 | 2020-10-31 08:00| Chicago, IL | 2020-11-01 08:00| Houston, TX |
 
-Gort's app calculates that the trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, and is confused, if the driver never crossed a Time Zone, why is this answer wrong?
+Gort's app calculates that this Chicago to Houston trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, and is confused, if the driver never crossed a Time Zone, why is this answer wrong?
 
-It's wrong, because daylight saving time ended on November 1, 2020, and everyone in America/Chicago Time Zone rolled back their clocks 1 hour, adding that hour overnight.
+The source of the error is that daylight saving time ended on November 1, 2020, and everyone in America/Chicago Time Zone rolled back their clocks 1 hour, adding that hour overnight.
 
 Thus the driver is correct, the time between "2020-10-31 08:00" and "2020-11-01 08:00" is 25 hours, in the America/Chicago Time Zone.
 
-Gort adds a routine in his app to add one hour to all the calculated elapsed durations on November 1, 2020.  Client is happy again. Until they find a different delivery:
+Gort adds a routine in his app to add one hour to all the calculated elapsed durations on November 1, 2020.  The client is happy again. Until they find a different delivery:
 
 
 | Pickup time | Pickup Location | Delivery time | Delivery Location|
@@ -218,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzI5ODUxMywxMDQxOTk1MzgzLC0zNj
+eyJoaXN0b3J5IjpbLTU2OTg4NDMwNCwxMDQxOTk1MzgzLC0zNj
 YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
 NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
 Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
