@@ -139,11 +139,11 @@ The client reports that the first result should be 26 hours while the second is 
 
 Recall that Phoenix is in the America/Phoenix Time Zone, different from America/Denver. Gort was misled by the map which shows a legal time zone, not the actual area where people set their clocks the same way. 
 
-What Gort needs in the app is the UTC Time for storage and math, combined the offset for a display format.  
+What Gort needs in the app is the UTC Time for storage and math, combined with the offset for a display format.  
 
 ## UTC Time solves this
 
-Briefly, here are the outcomes of the challenges above, using UTC Time.
+Briefly, here are the outcomes of the challenges above, when UTC Time is used instead.
 
 Note that the formatted display with the offset also helps visually explain the outcome; it is easier to see why 08:30 comes after 09:00 when the offset context is part of the output.
 
@@ -190,14 +190,15 @@ It is further hard because in conversation, people will refer to an offset at th
 
 
 
-
-## Eliminate datetime type! 
+## Opinion 1: Eliminate datetime type! 
 
 Microsoft .NET and SQL Server both support a datetime type which cannot store offset information across time zone offsets.  The alternative is the datetimeoffset type, which defines an exact point in time (a UTC Time) and has offset information. 
 
 In my opinion, the very existence of the datetime type has made it easier for developers to fall into the pitfalls described above. 
 
 Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/standard/datetime/choosing-between-datetime) suggests that the datetimeoffset should be the default choice. 
+
+## Opinion 2: Do not use 'standard' to describe the zone! 
 
 
 ## Helpful Links
@@ -218,11 +219,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDEyMTEyMywxMDQxOTk1MzgzLC0zNj
-YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
-NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
-Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
-MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNi
-w4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgy
-MF19
+eyJoaXN0b3J5IjpbODA0MjIxOTk1LDEwNDE5OTUzODMsLTM2Nj
+EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
+NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
+UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
+NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
+gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
+XX0=
 -->
