@@ -79,7 +79,7 @@ The key point to UTC Time is that it is the *same time value no matter the Wall-
 
 ## Scheduled pickup time
 
-Getting back to our computer engineer, Gort has a solution for the pickup time sorting issue. He adds a column to store the equivalent server to convert the location time to a local server time.   If all times are expressed as a local server time, then the comparison works.
+Getting back to our computer engineer, Gort has a solution for the pickup time sorting issue. He adds a column to store the equivalent server time with each dropoff. Now the comparison between dropoff times work, and the sort looks correct.
 
 | Pickup time | Location | Server Time|
 |--|--|--|
@@ -111,7 +111,7 @@ Actually, the truck has crossed the time zone line. South of the Time Zone line,
 
 ![Time zone line in blue](https://github.com/jasonmerecki/blog/blob/main/useepoch/GortMap01b.png)
 
-This happened because, Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. For example, the GPS can send "2020-10-31 05:52 -05:00" but Gort's app truncated the offset.
+This unusual mapping happened because Gort's app only uses wall-clock time with no offset, even though the GPS sends offset information. For example, the GPS can send "2020-10-31 05:52 -05:00" but Gort's app truncated the offset.
 
 ## More time math challenges
 
@@ -218,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDIzNDAyNywxMDQxOTk1MzgzLC0zNj
+eyJoaXN0b3J5IjpbLTgyNzI5ODUxMywxMDQxOTk1MzgzLC0zNj
 YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
 NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
 Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
