@@ -8,7 +8,7 @@ These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour ti
 
 ## Gort goes to work
 
-A computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking about time from a wall-clock time, and chooses to store the date and time values in a wall-clock way when he reads it. 
+A computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking about time by reading wall clocks, and chooses to store the date and time values in a wall clock way when he reads it. 
 
 The client will have package pickup and dropoff times around North America.  The incoming schedule data Gort receives looks like this:
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NzEyNjYzLDEwNDE5OTUzODMsLTM2Nj
-EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
-NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
-UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
-NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
-gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
-XX0=
+eyJoaXN0b3J5IjpbMTM5NDEzMzI3NSw4Njg3MTI2NjMsMTA0MT
+k5NTM4MywtMzY2MTI3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0
+LC0xOTc0NTAzODU2LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNj
+YyMDk2OTEyLC00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3
+NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNS
+wzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5
+MDU1XX0=
 -->
