@@ -186,7 +186,8 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
-It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing daylight saving time, the offset CDT no longer applies.
+It is further hard because of the casual way people use the term Time Zone to describe an offset. It's easy to conclude storing Eastern Standard Time with a location will always convert correctly, but it only converts during that time of year the location is not observing daylight saving time.
+
 
 
 ## Opinion 1: Eliminate datetime type! 
@@ -222,7 +223,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTczOTk0MSwxMDQxOTk1MzgzLC0zNj
+eyJoaXN0b3J5IjpbMTI1NjQ0MTIyNSwxMDQxOTk1MzgzLC0zNj
 YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
 NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
 Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
