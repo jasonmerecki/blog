@@ -26,13 +26,15 @@ Gort follows his client's request and sorted the pickup times sorted from earlie
 | 2020-10-31 08:30| San Francisco, CA |
 | 2020-10-31 09:00| Dallas, TX |
 
-The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison. 
+The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison.
+
+Let's look closer at what happened, and how to avoid this outcome. 
 
 ## First, some definitions
 
-**Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
+**Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock, they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
 
-**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may or may not change their clocks by 1 hour, to follow Daylight Saving Time (or British Summer Time if you prefer). 
+**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow Daylight Saving Time (or British Summer Time if you prefer). 
 
 The best lookup source to associate a Time Zone with a location is the IANA Time Zone database.  A good example of an actual Time Zone map by this definition is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/).
 
@@ -216,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjMyODA1MDAsLTM2NjEyNzk2MiwtNj
+eyJoaXN0b3J5IjpbLTEyNzY2NDI3NTYsLTM2NjEyNzk2MiwtNj
 U1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMw
 ODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC
 04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0
