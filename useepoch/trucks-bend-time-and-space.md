@@ -26,7 +26,7 @@ Gort follows his client's request and sorted the pickup times from earliest to l
 | 2020-10-31 08:30| San Francisco, CA |
 | 2020-10-31 09:00| Dallas, TX |
 
-The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the Wall-Clock time only knows the Wall-Clock time for comparison.
+The client is upset. The pickup in San Francisco is in Pacific time zone, and 08:30 in that location is after the 09:00 pickup in Dallas. But sorting the wall clock time compares only the time part for comparison, not the time zone offset.
 
 Let's look closer at what happened, and how to avoid this outcome. 
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDA5NzE3NTQsMTM5NDEzMzI3NSw4Nj
-g3MTI2NjMsMTA0MTk5NTM4MywtMzY2MTI3OTYyLC02NTUyMTAy
-MTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4MTksLT
-Y3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLTg1Njg2
-NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMz
-YsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLDE1ODkw
-Mzc3NTFdfQ==
+eyJoaXN0b3J5IjpbMTgzMjg4NTUwMywxMzk0MTMzMjc1LDg2OD
+cxMjY2MywxMDQxOTk1MzgzLC0zNjYxMjc5NjIsLTY1NTIxMDIx
+NSwtMjM5MDY1NTQsLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNj
+c2NzY3NTA0LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1
+MzAxLC0xNTYxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNi
+wxMjg2OTU1MTI1LDM3NDU1MDgwNiw4MjY4NjE2MDAsMTU4OTAz
+Nzc1MV19
 -->
