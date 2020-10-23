@@ -54,7 +54,7 @@ Arizona offers a good illustration. The state's legal Time Zone is Mountain Time
 
 The key difference is that Phoenix is in the Time Zone area named  "America/Phoenix".  It defines the geographical area  where people agree to set calendars and clocks together., and have a -07:00 offset all year long. It is separate from the "America/Denver" zone, where those people have agreed to observe daylight saving time. They are both Mountain Time on a map, but are distinct Time Zones since they set clocks differently. 
 
-(and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further confusing since that is neither a Time Zone nor an offset).
+([Some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), which is actually a synonym for the -07:00 offset, applied all the time).
 
 
 ## Putting it together
@@ -220,7 +220,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzYzNjM4MSwxMDQxOTk1MzgzLC0zNj
+eyJoaXN0b3J5IjpbMTY0ODY0NDg2NiwxMDQxOTk1MzgzLC0zNj
 YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
 NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
 Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
