@@ -1,7 +1,7 @@
 # Trucks Bend Time And Space!
 *Or, why time is hard in computer science.*
 
-It is surprisingly easy for computer programmers to make mistakes with time calculations and time storage in computer programming. Time math requires complicated 
+It is surprisingly easy for computer programmers to make mistakes with time calculations and time storage in computer programming. Time math requires transformations that people can do in their head without realizing. I will show some of the pitfalls that developers can make and hopefully help some avoid them. 
 
 These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
 
@@ -216,11 +216,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMDgwNzAsLTM2NjEyNzk2MiwtNjU1Mj
-EwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMwODE5
-LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NT
-Y4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0
-MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMCwxNT
-g5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2OTRd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNjMyODA1MDAsLTM2NjEyNzk2MiwtNj
+U1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMw
+ODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC
+04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0
+OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMC
+wxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2
+OTRdfQ==
 -->
