@@ -34,9 +34,9 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 **Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock, they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
 
-**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow Daylight Saving Time (or British Summer Time if you prefer). 
+**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow Daylight Saving Time. 
 
-The best lookup source to associate a Time Zone with a location is the IANA Time Zone database.  A good example of an actual Time Zone map by this definition is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/).
+The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area followed a different 
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -218,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY2NDI3NTYsLTM2NjEyNzk2MiwtNj
+eyJoaXN0b3J5IjpbLTEwNTc2NjI1MzIsLTM2NjEyNzk2MiwtNj
 U1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMw
 ODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC
 04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0
