@@ -36,7 +36,7 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 **Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow Daylight Saving Time. 
 
-The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. THus  
+The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus Northwest Indiana is  
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -218,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTQyNDE0MSwtMzY2MTI3OTYyLC02NT
+eyJoaXN0b3J5IjpbMTA0MTk5NTM4MywtMzY2MTI3OTYyLC02NT
 UyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4
 MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLT
 g1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5
