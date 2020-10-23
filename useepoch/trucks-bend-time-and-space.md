@@ -176,18 +176,17 @@ The difference between the delivery and the pickup is now 90000000 milliseconds,
 
 ## Why this is hard  
 
-The bottom line is that Wall Clock time creates bugs when the values apply to different Time Zone areas, and require math operations, such as greater-than (sorting) and subtraction (time elapsed).
+The bottom line is that Wall Clock time, by itself, creates bugs when the values apply to different Time Zone areas, and the values require math operations, such as greater-than (sorting) and subtraction (time elapsed).
 
-These are avoidable by using UTC Time instead, and treating the display of a clock time as a format for display, not as an actual value. 
+These errors are avoidable by using UTC Time instead, and treating the display of a clock time as a format for display, not as an actual value. 
 
-However, people think using Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00 -07:00" and the computer engineer in San Francisco can read and understand the time.
+However, people think using Wall Clock time. No one can look at time 1602828000000 and understand it.  At some point is must be converted to a readable format like "October 15, 2020 23:00 -07:00", and the computer engineer in San Francisco can read and understand the time.
 
 The challenge is that the engineer reading the data may conclude that it "looks right", or they may overlook the offset of "-07:00", trying only to work with the clock time being displayed. 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
 It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing daylight saving time, the offset CDT no longer applies.
-
 
 
 ## Opinion 1: Eliminate datetime type! 
@@ -198,7 +197,7 @@ In my opinion, the very existence of the datetime type has made it easier for de
 
 Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/standard/datetime/choosing-between-datetime) suggests that the datetimeoffset should be the default choice. 
 
-Please, developers, do not use datetime. I understand datetimeoffset is sometimes harder to use and read, but it avoids bugs which are very difficult to solve 
+Please, developers, do not use datetime. I understand datetimeoffset is sometimes harder to use and read, but it avoids bugs which are very difficult to solve later.
 
 ## Opinion 2: Do not use 'standard' to describe the Time Zone! 
 
@@ -223,11 +222,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjE5MDMzMjUsMTA0MTk5NTM4MywtMz
-Y2MTI3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAz
-ODU2LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC
-00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0
-OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MD
-YsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTMzOTczOTk0MSwxMDQxOTk1MzgzLC0zNj
+YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
+NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
+Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
+MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNi
+w4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgy
+MF19
 -->
