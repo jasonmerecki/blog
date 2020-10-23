@@ -1,7 +1,7 @@
 # Trucks Bend Time And Space!
 *Or, why time is hard in computer science.*
 
-People read time using wall clocks, and have understood their neighbors around the globe 
+It is surprisMistakes in time calculations and storage are surprisingly common in computer applications. 
 
 These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
 
@@ -216,7 +216,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODM0MTc1NSwtMzY2MTI3OTYyLC02NT
+eyJoaXN0b3J5IjpbMjEyNjQyNDg3MSwtMzY2MTI3OTYyLC02NT
 UyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4
 MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLT
 g1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5
