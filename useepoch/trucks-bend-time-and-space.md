@@ -1,6 +1,7 @@
 # Trucks Bend Time And Space!
 *Or, why time is hard in computer science.*
 
+Computer engineers are people, and people have grown up reading wall clocks since an eea
 
 
 These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
@@ -10,7 +11,7 @@ These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour ti
 
 A computer engineer named Gort has been hired to write software for a package delivery company. He is used to thinking about time from a wall-clock time, and chooses to store the date and time values in a wall-clock way when he reads it. 
 
-The client will have package pickup and dropoff times around North America. The incoming schedule data Gort receives looks like this:
+The client will have package pickup and dropoff times around North America.  The incoming schedule data Gort receives looks like this:
 
 | Pickup time |  |
 |--|--|
@@ -18,7 +19,9 @@ The client will have package pickup and dropoff times around North America. The 
 | 2020-10-31 08:30|  |
 | 2020-10-31 09:00|  |
 
-The client wants Gort to display the pickup times sorted from earliest to latest, so they can coordinate their drivers. Gort sorts, adds the location to the output and gets this result:
+Gort follows his client's request and sorted the pickup times sorted from earliest to latest, so they can coordinate their drivers.
+
+The client wants  Gort sorts, adds the location to the output and gets this result:
 
 | Pickup time | Location |
 |--|--|
@@ -216,7 +219,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTExNTc3NCwtMzY2MTI3OTYyLC02NT
+eyJoaXN0b3J5IjpbLTM5MTkyODg0OCwtMzY2MTI3OTYyLC02NT
 UyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4
 MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLT
 g1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5
