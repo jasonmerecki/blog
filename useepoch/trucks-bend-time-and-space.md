@@ -198,7 +198,11 @@ In my opinion, the very existence of the datetime type has made it easier for de
 
 Even [Microsoft's own documentation](https://docs.microsoft.com/en-us/dotnet/standard/datetime/choosing-between-datetime) suggests that the datetimeoffset should be the default choice. 
 
-## Opinion 2: Do not use 'standard' to describe the zone! 
+Please, developers, do not use datetime. I understand datetimeoffset is sometimes harder to use and read, but it avoids bugs which are very difficult to solve 
+
+## Opinion 2: Do not use 'standard' to describe the Time Zone! 
+
+
 
 
 ## Helpful Links
@@ -219,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MjIxOTk1LDEwNDE5OTUzODMsLTM2Nj
-EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
-NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
-UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
-NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
-gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
-XX0=
+eyJoaXN0b3J5IjpbLTIwNjE5MDMzMjUsMTA0MTk5NTM4MywtMz
+Y2MTI3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAz
+ODU2LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC
+00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0
+OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MD
+YsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4
+MjBdfQ==
 -->
