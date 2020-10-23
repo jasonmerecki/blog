@@ -48,7 +48,7 @@ People may be surprised to see odd sections of their legal Time Zone split into 
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
-Arizona offers a good illustration. The state's legal Time Zone is America/Denver, a.k.a. Mountain Time. But most of the state does not observe daylight saving time.  This means Denver can have an offset of -06:00 MDT while the Phoenix offset is -07:00 MST, when they represent the same UTC Time point:
+Arizona offers a good illustration. The state's legal Time Zone is Mountain Time which includes the states of Arizona and Colorado. But most of Arizona does not observe daylight saving time.  This means Denver, Colorado can have an offset of -06:00 MDT while the Phoenix, Arizona offset is -07:00 MST, when they represent the same point in time:
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
@@ -218,7 +218,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzg5NTMyOSwxMDQxOTk1MzgzLC0zNj
+eyJoaXN0b3J5IjpbLTY2MTM0MDgwOSwxMDQxOTk1MzgzLC0zNj
 YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
 NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
 Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
