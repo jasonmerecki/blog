@@ -1,7 +1,7 @@
 # Trucks Bend Time And Space!
 *Or, why time is hard in computer science.*
 
-People read time using wall clocks, and have understood 
+People read time using wall clocks, and have understood their neighbors around the globe 
 
 These examples will show formatted time in "YYYY-MM-DD HH:SS" and use 24-hour time.
 
@@ -18,9 +18,7 @@ The client will have package pickup and dropoff times around North America.  The
 | 2020-10-31 08:30|  |
 | 2020-10-31 09:00|  |
 
-Gort follows his client's request and sorted the pickup times sorted from earliest to latest, so they can coordinate their drivers.
-
-The client wants  Gort sorts, adds the location to the output and gets this result:
+Gort follows his client's request and sorted the pickup times sorted from earliest to latest, so they can coordinate their drivers. Then Gord adds the location to the output, and gets this result:
 
 | Pickup time | Location |
 |--|--|
@@ -218,11 +216,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk5NDk0ODgsLTM2NjEyNzk2MiwtNj
-U1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMw
-ODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC
-04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0
-OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LDgyNjg2MTYwMC
-wxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIwLDExNzcwOTk2
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTI0ODM0MTc1NSwtMzY2MTI3OTYyLC02NT
+UyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4
+MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLT
+g1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5
+MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MDYsODI2ODYxNjAwLD
+E1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4MjAsMTE3NzA5OTY5
+NF19
 -->
