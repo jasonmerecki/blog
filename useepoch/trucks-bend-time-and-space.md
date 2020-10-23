@@ -36,7 +36,9 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 **Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow Daylight Saving Time. 
 
-The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" has a special zone in the state of Indiana, to allow past points in time to format correctly.  
+The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). 
+
+People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" has a special zone in the state of Indiana, to allow past points in time to format correctly.  
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -45,8 +47,6 @@ The best source of Time Zone areas by this definition is the standard IANA Time 
 **UTC Offset Name:** Since people think of time offsets relative to the Time Zone, there are names for the offsets which match to the Time Zone name. At the UTC time above, Friday October 16 6:00 AM GMT, the offset in India is +05:30 and displays as India Standard Time (IST) while in San Francisco the offset is -07:00, and displays as Pacific Daylight Time (PDT).
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
-
-Be careful of sites which present a reference list of Time Zones when what they actually list are the Offset names (i.e. "Central Daylight Time").  Two such sites are listed in the "Helpful Links" section.
 
 Arizona offers a good illustration. Most of the state does not observe Daylight Saving time, and the state is usually associated with Mountain Time Zone.  This means Denver can have an offset of MDT while the Phoenix offset is MST, while they represent the same UTC Time point:
 
@@ -207,7 +207,7 @@ World clock converter: https://www.timeanddate.com/worldclock/converter.html
 Another way to describe these ideas
 https://stackoverflow.com/questions/4331189/datetime-vs-datetimeoffset
 
-These two sites list Time Zone abbreviations but they actually mean UTC Offset names
+These two sites list Time Zone abbreviations but they actually mean UTC Offset names (read the earlier point about the difference)
 
 https://www.timeanddate.com/time/zones/
 
@@ -218,11 +218,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEwNzYzMDIsMTA0MTk5NTM4MywtMz
-Y2MTI3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAz
-ODU2LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC
-00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0
-OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1NTEyNSwzNzQ1NTA4MD
-YsODI2ODYxNjAwLDE1ODkwMzc3NTEsMjQ1MDQ5MDU1LDU5MzY4
-MjBdfQ==
+eyJoaXN0b3J5IjpbMjA1MTY3NDkxNiwxMDQxOTk1MzgzLC0zNj
+YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
+NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
+Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
+MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNi
+w4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgy
+MF19
 -->
