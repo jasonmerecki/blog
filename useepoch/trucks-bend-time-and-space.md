@@ -34,7 +34,7 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 **Wall-Clock time:** The way people are used to measuring time through the day. When people view "11:30 AM" on the wall clock, they conclude it's mid-day and time for lunch, while viewing "11:00 PM" indicates it is night time and possibly time to sleep. 
 
-**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow Daylight Saving Time. 
+**Time Zone:** A geographic area where people have agreed to set their calendars and clocks in the same way.  Most use the Gregorian calendar, and set their clocks so that "11:30 AM" is roughly the middle of daylight hours. At certain times of the year, people in the Time Zone may change their clocks by 1 hour, to follow daylight saving time. 
 
 The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). 
 
@@ -48,11 +48,11 @@ People may be surprised to see odd sections of their legal Time Zone split into 
 
 Since these offset names are also called "Time Zones" in conversation, it can create confusion. Don't be fooled! Offsets are NOT Time Zones. [Read this blog](https://spin.atomicobject.com/2016/07/06/time-zones-offsets/) which describes the difference well. 
 
-Arizona offers a good illustration. Most of the state does not observe Daylight Saving time, and the state is legally associated with Mountain Time Zone.  This means Denver can have an offset of MDT while the Phoenix offset is MST, while they represent the same UTC Time point:
+Arizona offers a good illustration. Most of the state does not observe daylight saving time, and the state is legally associated with Mountain Time Zone.  This means Denver can have an offset of MDT while the Phoenix offset is MST, while they represent the same UTC Time point:
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe Daylight Saving time. The name for -07:00 to describe this offset is "Mountain Standard Time" (and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone region from a UTC Offset name).
+The actual geographical area Time Zone is "America/Phoenix" as it defines a geographical area where people agree to set calendars and clocks together. This specific geographic area has agreed to have a -07:00 offset all year long, and does not observe daylight saving time. The name for -07:00 to describe this offset is "Mountain Standard Time" (and[some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), further underscoring the need to differentiate a Time Zone region from a UTC Offset name).
 
 
 ## Putting it together
@@ -123,7 +123,7 @@ For the same pickup time as before, Gort's app also gets delivery time. Drivers 
 
 Gort's app calculates that the trip took 24 hours. But the client is upset again, the driver says the trip took 25 hours. Gort finds that the origin and destination are in the the same Time Zone, and is confused, if the driver never crossed a Time Zone, why is this answer wrong?
 
-It's wrong, because Daylight Saving time ended on November 1, 2020, and everyone in America/Chicago Time Zone rolled back their clocks 1 hour, adding that hour overnight.
+It's wrong, because daylight saving time ended on November 1, 2020, and everyone in America/Chicago Time Zone rolled back their clocks 1 hour, adding that hour overnight.
 
 Thus the driver is correct, the time between "2020-10-31 08:00" and "2020-11-01 08:00" is 25 hours, in the America/Chicago Time Zone.
 
@@ -137,7 +137,7 @@ Gort adds a routine in his app to add one hour to all the calculated elapsed dur
 
 The client reports that the first result should be 26 hours while the second is only 25 hours. Gort is in a frenzy, both Denver and Phoenix look like they are in Mountain Time Zone on a map. How could they be different?
 
-Phoenix (and most of Arizona) does not observe Daylight Saving Time and did not roll back their clocks. Arizona is a special geographic Time Zone called America/Phoenix. Remember, a Time Zone is a geographic region where people agree how to apply an offset, but the offset may be different in the same Time Zone depending on the time of the year. 
+Phoenix (and most of Arizona) does not observe daylight saving time and did not roll back their clocks. Arizona is a special geographic Time Zone called America/Phoenix. Remember, a Time Zone is a geographic region where people agree how to apply an offset, but the offset may be different in the same Time Zone depending on the time of the year. 
 
 What Gort needs in the app is the UTC Time for storage and math, and the offset for a display format.  
 
@@ -186,7 +186,7 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
-It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing Daylight Saving Time, the offset CDT no longer applies.
+It is further hard because in conversation, people will refer to an offset at the location's Time Zone and that leads to further errors. Sometimes developers will look up an offset name such as "Central Daylight Time (CDT)" and store that as a location's Time Zone. The problem is that CDT means -05:00 offset, and when that location stops observing daylight saving time, the offset CDT no longer applies.
 
 
 
@@ -218,11 +218,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNjAwOTY2LDEwNDE5OTUzODMsLTM2Nj
-EyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3NDUwMzg1
-NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5NjkxMiwtND
-UzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLTI2NDkx
-NDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUwODA2LD
-gyNjg2MTYwMCwxNTg5MDM3NzUxLDI0NTA0OTA1NSw1OTM2ODIw
-XX0=
+eyJoaXN0b3J5IjpbMTI2MDQwNTQxNCwxMDQxOTk1MzgzLC0zNj
+YxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MDY1NTQsLTE5NzQ1MDM4
+NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0LDE2NjIwOTY5MTIsLT
+Q1MzMxMzMzNSwtODU2ODY1MzAxLC0xNTYxNDc3MTQwLC0yNjQ5
+MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1MTI1LDM3NDU1MDgwNi
+w4MjY4NjE2MDAsMTU4OTAzNzc1MSwyNDUwNDkwNTUsNTkzNjgy
+MF19
 -->
