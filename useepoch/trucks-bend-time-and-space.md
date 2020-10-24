@@ -38,7 +38,7 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). 
 
-People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana. Although that zone now matches "America/New_York", it must remain in a different zone for correct formattting of past dates when they did not match that zone. 
+People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana. Although that zone now matches "America/New_York", it must remain in a different zone for correct formatting of past dates, when they did not match that zone. 
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NDIxNTAxLDM0NDYyNzg1MCwxMDUwOD
-AxMjEsMTgzMjg4NTUwMywxMzk0MTMzMjc1LDg2ODcxMjY2Mywx
-MDQxOTk1MzgzLC0zNjYxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MD
-Y1NTQsLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0
-LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1MzAxLC0xNT
-YxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1
-MTI1XX0=
+eyJoaXN0b3J5IjpbLTU1MDcwNTE5MSwzNDQ2Mjc4NTAsMTA1MD
+gwMTIxLDE4MzI4ODU1MDMsMTM5NDEzMzI3NSw4Njg3MTI2NjMs
+MTA0MTk5NTM4MywtMzY2MTI3OTYyLC02NTUyMTAyMTUsLTIzOT
+A2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4MTksLTY3Njc2NzUw
+NCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMT
+U2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1
+NTEyNV19
 -->
