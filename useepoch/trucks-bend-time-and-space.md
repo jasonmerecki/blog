@@ -38,7 +38,7 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). 
 
-People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana, since they are now following America/New_York but 
+People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana. Although that zone now matches "America/New_York", it must remain in a different zone for correct formattting of past dates when they did not match that zone. 
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -223,7 +223,7 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5ODY5NzY2LDM0NDYyNzg1MCwxMDUwOD
+eyJoaXN0b3J5IjpbNTc3NDIxNTAxLDM0NDYyNzg1MCwxMDUwOD
 AxMjEsMTgzMjg4NTUwMywxMzk0MTMzMjc1LDg2ODcxMjY2Mywx
 MDQxOTk1MzgzLC0zNjYxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MD
 Y1NTQsLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0
