@@ -38,7 +38,7 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). 
 
-People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana. It used to follow
+People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana, since they are now following America/New_York but 
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIyNDkyMjcsMzQ0NjI3ODUwLDEwNT
-A4MDEyMSwxODMyODg1NTAzLDEzOTQxMzMyNzUsODY4NzEyNjYz
-LDEwNDE5OTUzODMsLTM2NjEyNzk2MiwtNjU1MjEwMjE1LC0yMz
-kwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1
-MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLT
-E1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5
-NTUxMjVdfQ==
+eyJoaXN0b3J5IjpbNjc5ODY5NzY2LDM0NDYyNzg1MCwxMDUwOD
+AxMjEsMTgzMjg4NTUwMywxMzk0MTMzMjc1LDg2ODcxMjY2Mywx
+MDQxOTk1MzgzLC0zNjYxMjc5NjIsLTY1NTIxMDIxNSwtMjM5MD
+Y1NTQsLTE5NzQ1MDM4NTYsLTQ0NzkzMDgxOSwtNjc2NzY3NTA0
+LDE2NjIwOTY5MTIsLTQ1MzMxMzMzNSwtODU2ODY1MzAxLC0xNT
+YxNDc3MTQwLC0yNjQ5MTQyMzYsLTI2NDkxNDIzNiwxMjg2OTU1
+MTI1XX0=
 -->
