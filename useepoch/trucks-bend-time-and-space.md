@@ -38,7 +38,7 @@ Let's look closer at what happened, and how to avoid this outcome.
 
 The best source of Time Zone areas by this definition is the standard IANA Time Zone database.  A good example of an actual Time Zone map is here: [http://efele.net/maps/tz/us/](http://efele.net/maps/tz/us/). 
 
-People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" has a special zone in the state of Indiana, to allow past points in time to format correctly.  
+People may be surprised to see odd sections of their legal Time Zone split into a different area, and that is because the area set their clocks in a different way in the past. Thus the zone "America/Indiana/Knox" is special within the state of Indiana, when it to allow past points in time to format correctly.  
 
 **UTC Time:** Computers measure time by the elapsed milliseconds starting from a fixed point in time, called the Epoch, which is based on January 1, 1970, 12:00 AM in Greenwich Mean Time. The resulting value is the Coordinated Universal Time (UTC). For example, on Friday October 16 at 6:00 AM GMT, there were 1602828000000 milliseconds elapsed since the Epoch, thus the UTC Time.
 
@@ -52,7 +52,7 @@ Arizona offers a good illustration. The state's legal Time Zone is Mountain Time
 
 ![Denver and Phoenix](https://github.com/jasonmerecki/blog/blob/main/useepoch/DenPhoExample.png)
 
-The key difference is that Phoenix is in the Time Zone area named  "America/Phoenix".  It defines the geographical area  where people agree to set calendars and clocks together., and have a -07:00 offset all year long. It is separate from the "America/Denver" zone, where those people have agreed to observe daylight saving time. They are both Mountain Time on a map, but are distinct Time Zones since they set clocks differently. 
+The key difference is that Phoenix is in the Time Zone area named  "America/Phoenix".  It defines the geographical area  where people agree to set calendars and clocks together, and have a -07:00 offset all year long. It is separate from the "America/Denver" zone, where those people have agreed to observe daylight saving time. They are both Mountain Time on a map, but are distinct Time Zones since they set clocks differently. 
 
 ([Some systems will call this "Arizona Time"](https://stackoverflow.com/questions/42424829/getting-the-arizona-standard-time-in-net), which is actually a synonym for the -07:00 offset, applied all the time).
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0NjI3ODUwLDEwNTA4MDEyMSwxODMyOD
-g1NTAzLDEzOTQxMzMyNzUsODY4NzEyNjYzLDEwNDE5OTUzODMs
-LTM2NjEyNzk2MiwtNjU1MjEwMjE1LC0yMzkwNjU1NCwtMTk3ND
-UwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1MDQsMTY2MjA5Njkx
-MiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLTE1NjE0NzcxNDAsLT
-I2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5NTUxMjUsMzc0NTUw
-ODA2XX0=
+eyJoaXN0b3J5IjpbLTE5OTkwMDMzMDIsMzQ0NjI3ODUwLDEwNT
+A4MDEyMSwxODMyODg1NTAzLDEzOTQxMzMyNzUsODY4NzEyNjYz
+LDEwNDE5OTUzODMsLTM2NjEyNzk2MiwtNjU1MjEwMjE1LC0yMz
+kwNjU1NCwtMTk3NDUwMzg1NiwtNDQ3OTMwODE5LC02NzY3Njc1
+MDQsMTY2MjA5NjkxMiwtNDUzMzEzMzM1LC04NTY4NjUzMDEsLT
+E1NjE0NzcxNDAsLTI2NDkxNDIzNiwtMjY0OTE0MjM2LDEyODY5
+NTUxMjVdfQ==
 -->
