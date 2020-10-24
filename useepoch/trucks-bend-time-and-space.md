@@ -69,7 +69,7 @@ By example, a UTC time value of 1602828000000 and a location of Mumbai goes thro
 The same display time steps for San Francisco:
 
  -  Start with UTC Time 1602828000000
- - Lookup the offset for America/Los_Angeles for that time of year, which is +07:00 
+ - Lookup the offset for America/Los_Angeles for that time of year, which is -07:00 
  - Applies the offset hours/minutes, resulting in a 'local' millisecond time
  - Format the result using calendar/clock fields, resulting in "October 15, 2020 11:00 PM"
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDcwNTE5MSwzNDQ2Mjc4NTAsMTA1MD
-gwMTIxLDE4MzI4ODU1MDMsMTM5NDEzMzI3NSw4Njg3MTI2NjMs
-MTA0MTk5NTM4MywtMzY2MTI3OTYyLC02NTUyMTAyMTUsLTIzOT
-A2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4MTksLTY3Njc2NzUw
-NCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLTg1Njg2NTMwMSwtMT
-U2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQyMzYsMTI4Njk1
-NTEyNV19
+eyJoaXN0b3J5IjpbNTQ5MDQzNDMsLTU1MDcwNTE5MSwzNDQ2Mj
+c4NTAsMTA1MDgwMTIxLDE4MzI4ODU1MDMsMTM5NDEzMzI3NSw4
+Njg3MTI2NjMsMTA0MTk5NTM4MywtMzY2MTI3OTYyLC02NTUyMT
+AyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4MTks
+LTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLTg1Nj
+g2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQy
+MzZdfQ==
 -->
