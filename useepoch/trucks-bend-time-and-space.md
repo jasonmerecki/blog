@@ -186,7 +186,7 @@ The challenge is that the engineer reading the data may conclude that it "looks 
 
 Working with UTC Time requires the tech teams (engineering, QA) to shift how they think about time values. That's hard, since people read clocks since elementary school and rarely need to deal with time math. 
 
-It is further hard because of the casual way people use the term Time Zone to describe an offset. It's easy to conclude that using Eastern Standard Time will always convert correctly, but that is the offset -05:00, and does not apply to the location during daylight saving time.
+It is further hard because of the casual way people use the term Time Zone to describe an offset. It's easy to conclude that using Eastern Standard Time will always convert correctly, but that is the offset -05:00, and does not apply to the location during daylight saving time, when the offset is -04:00.
 
 
 
@@ -223,11 +223,11 @@ https://www.timetemperature.com/abbreviations/united_states_time_zone_abbreviati
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MDQzNDMsLTU1MDcwNTE5MSwzNDQ2Mj
-c4NTAsMTA1MDgwMTIxLDE4MzI4ODU1MDMsMTM5NDEzMzI3NSw4
-Njg3MTI2NjMsMTA0MTk5NTM4MywtMzY2MTI3OTYyLC02NTUyMT
-AyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2LC00NDc5MzA4MTks
-LTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NTMzMTMzMzUsLTg1Nj
-g2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0MjM2LC0yNjQ5MTQy
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTcwNTE1MjgsNTQ5MDQzNDMsLTU1MD
+cwNTE5MSwzNDQ2Mjc4NTAsMTA1MDgwMTIxLDE4MzI4ODU1MDMs
+MTM5NDEzMzI3NSw4Njg3MTI2NjMsMTA0MTk5NTM4MywtMzY2MT
+I3OTYyLC02NTUyMTAyMTUsLTIzOTA2NTU0LC0xOTc0NTAzODU2
+LC00NDc5MzA4MTksLTY3Njc2NzUwNCwxNjYyMDk2OTEyLC00NT
+MzMTMzMzUsLTg1Njg2NTMwMSwtMTU2MTQ3NzE0MCwtMjY0OTE0
+MjM2XX0=
 -->
