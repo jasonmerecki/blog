@@ -189,6 +189,51 @@ Working with UTC Time requires the tech teams (engineering, QA) to shift how the
 It is further hard because of the casual way people use the term Time Zone to describe an offset. It's easy to conclude that using Eastern Standard Time will always convert correctly, but that is the offset -05:00, and does not apply to the location during daylight saving time, when the offset is -04:00.
 
 
+## An example to try in Javascript
+
+This exercise is another easy way to see the impact of using
+millisecond epoch time versus wall-clock time. Start with 
+the representation of the time "2021-03-14T01:35:00-06:00" 
+in Chicago (-6 hour offset)
+
+ ```
+> var chiDate = new Date("2021-03-14T01:35:00-06:00")
+> chiDate.getTime()
+< 1615707300000
+> chiDate.toLocaleString("en-US", {timeZone: "America/Chicago"})
+< "3/14/2021, 1:35:00 AM"
+```
+
+If this is formatted to the "America/Denver" time zone
+then the wall-clock time output is one hour earlier
+
+```
+> var denDate = chiDate.toLocaleString("en-US", {timeZone: "America/Denver"})
+> denDate
+< "3/14/2021, 12:35:00 AM"
+```
+
+Now let's format in "America/New_York" locale, one hour 
+later than Chicago
+
+```
+> var nyDate = chiDate.toLocaleString("en-US", {timeZone: "America/New_York"})
+> nyDate
+< "3/14/2021, 3:35:00 AM"
+```
+
+Woah, that is TWO hours ahead of the Chicago time. 
+That's because the "America/New_York" time zone has
+all set their wall clocks one hour ahead for daylight
+savings time.
+
+But if we check `chiDate`, it's still the same epoch time:
+
+```
+> chiDate.getTime()
+< 1615707300000
+```
+
 
 ## My Pet Peeve 1: Eliminate datetime type! 
 
